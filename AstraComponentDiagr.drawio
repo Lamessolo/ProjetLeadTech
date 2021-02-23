@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T03:24:55.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="f0UTJybZnP0qgnSsaupJ" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-23T03:40:43.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="JOhwhFwR1CQOaUU0nPWT" version="14.4.2" type="github" pages="10">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="806" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1608,17 +1608,17 @@
         <mxCell id="8RZzQM4G-6TL5niZr_sO-2" value="Planifier une session de formation, une présentation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry x="270" y="1670" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-3" value="Enregistrer une session de formation, une réunion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
-          <mxGeometry x="260" y="1570" width="150" height="80" as="geometry" />
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-3" value="Enregistrer une session de formation, une réunion web" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+          <mxGeometry x="260" y="1570" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-4" value="Inviter des participants" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry x="260" y="1480" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-5" value="Donner un cours" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-5" value="Ouvrir une session de formation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry x="250" y="1290" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-6" value="Participer à un cours" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
-          <mxGeometry x="610" y="1420" width="140" height="70" as="geometry" />
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-6" value="Participer à un cours, une session de formation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+          <mxGeometry x="610" y="1420" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-7" value="Streamer une vidéo&lt;br&gt;&amp;nbsp;ad hoc&amp;nbsp;&lt;br&gt;enregistré" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry x="600" y="1180" width="140" height="70" as="geometry" />
@@ -1626,13 +1626,13 @@
         <mxCell id="8RZzQM4G-6TL5niZr_sO-8" value="Consulter les recherches&lt;br&gt;Astra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry x="280" y="1000" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-9" value="Inviter un participant à une réunion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
-          <mxGeometry x="280" y="1100" width="140" height="70" as="geometry" />
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-9" value="Inviter des participants à une réunion web" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+          <mxGeometry x="280" y="1100" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-10" value="Participer à une réunion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-10" value="Participer à une réunion&lt;br&gt;web" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry x="610" y="1320" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-11" value="Consulter les historiques&lt;br&gt;médical" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-11" value="Consulter les historiques&lt;br&gt;médical&amp;nbsp; Astra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry x="280" y="1200" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-12" value="Streamer une vidéo&lt;br&gt;&amp;nbsp;ad hoc&amp;nbsp;&lt;br&gt;enregistré" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
@@ -1649,6 +1649,9 @@
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-16" value="Consulter les réunions, présentations et documents auxquelles j&#39;ai accès" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry x="630" y="1710" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-18" value="Ouvrir une réunion web" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+          <mxGeometry x="410" y="1350" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
