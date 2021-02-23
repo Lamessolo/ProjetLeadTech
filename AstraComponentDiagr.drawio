@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T21:58:18.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="qY4-hpgcnP01APkUI121" version="14.4.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-23T23:21:59.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="9oflUze5LTY9_S5R8nVE" version="14.4.2" type="github" pages="11">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
-    <mxGraphModel dx="1046" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1258" dy="2860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,8 +151,8 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZLCsq2qd7jMv3aYF_8jU-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Streaming&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;et Documentation&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Stockes les sessions&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;enregistrés audio&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;et vidéo et&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Documents&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="820" y="145" width="140" height="120" as="geometry" />
+        <mxCell id="ZLCsq2qd7jMv3aYF_8jU-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Enregistrement&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Stockes les sessions&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;enregistrés audio&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;et vidéo et&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Documents&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="820" y="152.5" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZLCsq2qd7jMv3aYF_8jU-14" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="ZLCsq2qd7jMv3aYF_8jU-13" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -176,14 +176,6 @@
         </mxCell>
         <mxCell id="F3-ho3BqgQVGj7mg30SZ-5" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.92) ; font-family: &amp;#34;montserrat&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;solution de réunion et de collaboration&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="400" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="F3-ho3BqgQVGj7mg30SZ-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Gestion des&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;&amp;nbsp;Historiques&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Stockes l&#39;historiques des&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;sessions utilisateurs&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="145" width="140" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="F3-ho3BqgQVGj7mg30SZ-7" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="F3-ho3BqgQVGj7mg30SZ-6" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-24" y="4" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="F3-ho3BqgQVGj7mg30SZ-8" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;rotation=-210;" parent="1" vertex="1">
           <mxGeometry x="710" y="-71.25" width="20" height="20" as="geometry" />
@@ -293,7 +285,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ArchiExistant_GlobalAstra" id="gJYPC504AEFtOxvmRFQ4">
-    <mxGraphModel dx="1293" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1258" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="vhx2vBS3irySZ_pV3HSS-0" />
         <mxCell id="vhx2vBS3irySZ_pV3HSS-1" parent="vhx2vBS3irySZ_pV3HSS-0" />
@@ -538,7 +530,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DB__-z2srqPdFhaWFiU-" name="Logiciel_VisioAstra">
-    <mxGraphModel dx="2460" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2912" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="e5EIBYE1KxdU-MoMEidJ-0" />
         <mxCell id="e5EIBYE1KxdU-MoMEidJ-1" parent="e5EIBYE1KxdU-MoMEidJ-0" />
@@ -621,7 +613,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZQBFYvCCky1Yyn8IJ51x" name="Archi_MicroService_Astra">
-    <mxGraphModel dx="1293" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1258" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="4fTbdOuplWJWy0ZnZLD6-0" />
         <mxCell id="4fTbdOuplWJWy0ZnZLD6-1" parent="4fTbdOuplWJWy0ZnZLD6-0" />
@@ -806,7 +798,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ArchiExistant_MicroService_Astra" id="X7MRmnuXfjMLheSM_o_8">
-    <mxGraphModel dx="806" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1258" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="SruLgMFjXxdbzBbFKImx-0" />
         <mxCell id="SruLgMFjXxdbzBbFKImx-1" parent="SruLgMFjXxdbzBbFKImx-0" />
@@ -899,7 +891,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Rrs4zTGSS4Dk9WFRaEN" name="EtudeDuDomaine_AstraRec">
-    <mxGraphModel dx="1633" dy="1659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2085" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OxBj5hrYAivJY2QvUbFt-0" />
         <mxCell id="OxBj5hrYAivJY2QvUbFt-1" parent="OxBj5hrYAivJY2QvUbFt-0" />
@@ -1108,7 +1100,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EnPNw-xOLTbrAf3U8R11" name="AchitectureGlobale_Astra">
-    <mxGraphModel dx="806" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1258" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="bT6sjzDnVI1TFIL7tKOR-0" />
         <mxCell id="bT6sjzDnVI1TFIL7tKOR-1" parent="bT6sjzDnVI1TFIL7tKOR-0" />
@@ -1356,7 +1348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9xEvhJD85xAkgXQbJFUp" name="ProcessusAuthentification_Astra">
-    <mxGraphModel dx="806" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1258" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_kZEegycePAFInCoPvcU-0" />
         <mxCell id="_kZEegycePAFInCoPvcU-1" parent="_kZEegycePAFInCoPvcU-0" />
@@ -1442,7 +1434,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9_UX1FAi6QOJueRvQTlS" name="Page-9">
-    <mxGraphModel dx="806" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1258" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ySWNm7CiKosOGVYnY_Fq-0" />
         <mxCell id="ySWNm7CiKosOGVYnY_Fq-1" parent="ySWNm7CiKosOGVYnY_Fq-0" />
@@ -1611,31 +1603,28 @@
           <mxGeometry x="150" y="1280" width="50" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-2" value="&lt;b&gt;Planifier une&amp;nbsp; réunion&amp;nbsp;Web, une présentation&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="180" y="1115" width="180" height="80" as="geometry" />
+          <mxGeometry x="180" y="1145" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-3" value="&lt;b&gt;Enregistrer une réunion&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="160" y="1490" width="170" height="80" as="geometry" />
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-3" value="&lt;b&gt;Enregistrer une session&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+          <mxGeometry x="160" y="1490" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-4" value="&lt;b&gt;Inviter des utilisateurs à&lt;/b&gt;&lt;br&gt;&lt;b&gt;une réunion&amp;nbsp;Web&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="310" y="1370" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-5" value="&lt;b&gt;Participer a une réunion&amp;nbsp;web&amp;nbsp;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-5" value="&lt;b&gt;accéder&amp;nbsp;à une&amp;nbsp;réunion&lt;/b&gt;&lt;br&gt;&lt;b&gt;web&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="-80" y="1205" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-6" value="&lt;b&gt;Participer à une formation&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="1009" y="1130" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-7" value="&lt;b&gt;accéder&amp;nbsp;au streaming audio et&amp;nbsp;vidéo enregistré&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="660" y="1120" width="140" height="70" as="geometry" />
+          <mxGeometry x="1020" y="1160" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-10" value="&lt;b&gt;Participer à une réunion&lt;br&gt;web en tant qu&#39;invité&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="840" y="1060" width="150" height="80" as="geometry" />
+          <mxGeometry x="810" y="1115" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-12" value="&lt;b&gt;accéder&amp;nbsp;au streaming audio et&amp;nbsp;vidéo&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="-290" y="1340" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-13" value="&lt;b&gt;Enregistrer une réunion&amp;nbsp;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="1070" y="1280" width="150" height="80" as="geometry" />
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-13" value="&lt;b&gt;Enregistrer une session&amp;nbsp;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+          <mxGeometry x="1140" y="1370" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-14" value="&lt;b&gt;¨Poser une question durant une présentation ou une réunion&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="920" y="1450" width="180" height="80" as="geometry" />
@@ -1667,22 +1656,16 @@
             <mxPoint x="920" y="1260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EyK-WJGWIrIH9SYDay0k-7" value="" style="endArrow=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" source="8RZzQM4G-6TL5niZr_sO-7" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="1200" as="sourcePoint" />
-            <mxPoint x="880" y="1280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="EyK-WJGWIrIH9SYDay0k-8" value="" style="endArrow=none;html=1;entryX=0.094;entryY=0.871;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" target="8RZzQM4G-6TL5niZr_sO-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="1290" as="sourcePoint" />
             <mxPoint x="1010" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EyK-WJGWIrIH9SYDay0k-9" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" target="8RZzQM4G-6TL5niZr_sO-13" edge="1">
+        <mxCell id="EyK-WJGWIrIH9SYDay0k-9" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" target="CwSiTWqewrTQHHehFuUJ-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="980" y="1330" as="sourcePoint" />
-            <mxPoint x="1060" y="1440" as="targetPoint" />
+            <mxPoint x="1120" y="1310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EyK-WJGWIrIH9SYDay0k-10" value="" style="endArrow=none;html=1;exitX=0.457;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" source="8RZzQM4G-6TL5niZr_sO-14" edge="1">
@@ -1721,7 +1704,7 @@
             <mxPoint x="880" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r0IMlW1UrQrIPc78QzCb-0" value="&lt;b&gt;Rechercher une session ou un cours enregistré&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+        <mxCell id="r0IMlW1UrQrIPc78QzCb-0" value="&lt;b&gt;Rechercher un enregistrement&lt;br&gt;session ou cours&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry x="-140" y="1410" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="r0IMlW1UrQrIPc78QzCb-2" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="UopZFWTQNXxMyw-JJ6f5-1" source="r0IMlW1UrQrIPc78QzCb-0">
@@ -1761,6 +1744,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="1360" as="sourcePoint" />
             <mxPoint x="330" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwSiTWqewrTQHHehFuUJ-3" value="&lt;b&gt;accéder&amp;nbsp;au streaming audio et&amp;nbsp;vidéo enregistré&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+          <mxGeometry x="1120" y="1260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aaq9htsQ3O3KqeccBiNO-0" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="UopZFWTQNXxMyw-JJ6f5-1" target="8RZzQM4G-6TL5niZr_sO-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="1350" as="sourcePoint" />
+            <mxPoint x="1130" y="1335" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
