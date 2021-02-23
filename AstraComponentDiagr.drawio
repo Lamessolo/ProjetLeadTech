@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T21:56:42.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="gZ2q9mpHmUoTyLu2Vpwf" version="14.4.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-23T21:58:18.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="qY4-hpgcnP01APkUI121" version="14.4.2" type="github" pages="11">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="1046" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1600,7 +1600,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XCttHodmZBj_5krX0TPp" name="CasUtilisation_AstraRecherche">
-    <mxGraphModel dx="1975" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2427" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="UopZFWTQNXxMyw-JJ6f5-0" />
         <mxCell id="UopZFWTQNXxMyw-JJ6f5-1" parent="UopZFWTQNXxMyw-JJ6f5-0" />
@@ -1635,10 +1635,10 @@
           <mxGeometry x="-290" y="1340" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-13" value="&lt;b&gt;Enregistrer une réunion&amp;nbsp;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="1060" y="1290" width="150" height="80" as="geometry" />
+          <mxGeometry x="1070" y="1280" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-14" value="&lt;b&gt;¨Poser une question durant une présentation ou une réunion&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="870" y="1500" width="180" height="80" as="geometry" />
+          <mxGeometry x="920" y="1450" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-15" value="&lt;b&gt;Envoyer une notifications&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="430" y="1245" width="140" height="70" as="geometry" />
@@ -1688,7 +1688,7 @@
         <mxCell id="EyK-WJGWIrIH9SYDay0k-10" value="" style="endArrow=none;html=1;exitX=0.457;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" source="8RZzQM4G-6TL5niZr_sO-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="840" y="1470" as="sourcePoint" />
-            <mxPoint x="930" y="1410" as="targetPoint" />
+            <mxPoint x="970" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EyK-WJGWIrIH9SYDay0k-12" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" source="8RZzQM4G-6TL5niZr_sO-2" edge="1">
