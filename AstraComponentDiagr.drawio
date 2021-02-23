@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T19:02:58.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="EB3WNNgliPDyalggdJZe" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-23T19:05:22.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="92vhxdtzO6Zm9L9YZDBn" version="14.4.2" type="github" pages="10">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="1046" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -15,8 +15,8 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jVSZVKWOK95pv_yEcDNA-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Point d&#39;entrée&amp;nbsp;des&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Services&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Valide la structure&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;des requêtes&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;interface utilisateur&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="430" y="110" width="140" height="110" as="geometry" />
+        <mxCell id="jVSZVKWOK95pv_yEcDNA-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Point d&#39;entrée&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;des services&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Valide la structure&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;des requêtes&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;interface utilisateur&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="430" y="110" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jVSZVKWOK95pv_yEcDNA-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="jVSZVKWOK95pv_yEcDNA-3" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -46,8 +46,8 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TABUdnuH4LM6GMjATklA-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Gestion RH&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Gestion des données RH&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;Astra&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1230" width="150" height="70" as="geometry" />
+        <mxCell id="TABUdnuH4LM6GMjATklA-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Gestion RH&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Gestion des&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;données RH&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;Astra&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1230" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TABUdnuH4LM6GMjATklA-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="TABUdnuH4LM6GMjATklA-5" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -55,7 +55,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TABUdnuH4LM6GMjATklA-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Système email&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;de l&#39;entreprise&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="-105" width="130" height="70" as="geometry" />
+          <mxGeometry x="1230" y="-105" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="TABUdnuH4LM6GMjATklA-8" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="TABUdnuH4LM6GMjATklA-7" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -159,7 +159,7 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IBRaZhV9ljnvM3cPM-sK-2" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;rotation=-205;" parent="1" vertex="1">
+        <mxCell id="IBRaZhV9ljnvM3cPM-sK-2" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;rotation=130;" parent="1" vertex="1">
           <mxGeometry x="580" y="62.5" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GCTfzxwln-U9Qj6U4zSp-1" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.011;exitY=0.141;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="jVSZVKWOK95pv_yEcDNA-3" target="IBRaZhV9ljnvM3cPM-sK-2" edge="1">
@@ -233,15 +233,15 @@
         <mxCell id="F3-ho3BqgQVGj7mg30SZ-18" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;rotation=-185;" parent="1" vertex="1">
           <mxGeometry x="950" y="-80" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="F3-ho3BqgQVGj7mg30SZ-19" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;rotation=-150;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="-51.25" width="20" height="20" as="geometry" />
+        <mxCell id="F3-ho3BqgQVGj7mg30SZ-19" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;rotation=-195;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="-62.5" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="F3-ho3BqgQVGj7mg30SZ-20" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;rotation=-120;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="25" width="20" height="20" as="geometry" />
+        <mxCell id="F3-ho3BqgQVGj7mg30SZ-20" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;rotation=-130;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="45" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="F3-ho3BqgQVGj7mg30SZ-21" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="F3-ho3BqgQVGj7mg30SZ-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1090" y="10" as="sourcePoint" />
+            <mxPoint x="1130" y="9" as="sourcePoint" />
             <mxPoint x="1105" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
