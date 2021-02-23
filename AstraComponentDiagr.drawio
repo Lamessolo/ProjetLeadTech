@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T15:37:41.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="PBsT_edvlUXYYG-HA-VP" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-23T15:53:00.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="4pvk-yD2U2j42C5KGTZu" version="14.4.2" type="github" pages="10">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="1278" dy="2916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1617,16 +1617,16 @@
         <mxCell id="8RZzQM4G-6TL5niZr_sO-5" value="&lt;b&gt;Ouvrir une session de formation&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="330" y="1230" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-6" value="Participer à un cours, une session de formation" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="1020" y="1200" width="160" height="70" as="geometry" />
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-6" value="&lt;b&gt;Participer à un cours, une session de formation&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+          <mxGeometry x="1009" y="1130" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-7" value="Streamer une vidéo&lt;br&gt;&amp;nbsp;ad hoc&amp;nbsp;&lt;br&gt;enregistré" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-7" value="&lt;b&gt;Streamer une vidéo&lt;br&gt;&amp;nbsp;ad hoc&amp;nbsp;&lt;br&gt;enregistré&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="660" y="1120" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-8" value="Consulter les recherches et documents&lt;br&gt;Astra" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="-90" y="1120" width="170" height="90" as="geometry" />
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-8" value="&lt;b&gt;Consulter les recherches et documents&lt;br&gt;Astra&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+          <mxGeometry x="-90" y="1120" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-10" value="Participer à une réunion&lt;br&gt;web" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-10" value="&lt;b&gt;Participer à une réunion&lt;br&gt;web&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="850" y="1060" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-11" value="&lt;b&gt;Consulter les historiques&lt;br&gt;médical&amp;nbsp; Astra ?&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
@@ -1635,16 +1635,16 @@
         <mxCell id="8RZzQM4G-6TL5niZr_sO-12" value="&lt;b&gt;Streamer une vidéo&lt;br&gt;&amp;nbsp;ad hoc&amp;nbsp;&lt;br&gt;enregistré&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="-180" y="1380" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-13" value="Enregistrer une réunion au quelle je participe" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
-          <mxGeometry x="1010" y="1450" width="140" height="70" as="geometry" />
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-13" value="&lt;b&gt;Enregistrer une réunion au quelle je participe&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+          <mxGeometry x="1030" y="1440" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-14" value="¨Poser une question durant une présentation ou une réunion" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-14" value="&lt;b&gt;¨Poser une question durant une présentation ou une réunion&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="740" y="1480" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-15" value="&lt;b&gt;Envoyer une notifications&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="520" y="1390" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RZzQM4G-6TL5niZr_sO-16" value="Consulter les réunions, présentations et documents auxquelles j&#39;ai accès" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+        <mxCell id="8RZzQM4G-6TL5niZr_sO-16" value="&lt;b&gt;Consulter les réunions, présentations et documents auxquelles j&#39;ai accès&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="600" y="1270" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8RZzQM4G-6TL5niZr_sO-18" value="&lt;b&gt;Ouvrir une réunion web ?&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
@@ -1680,7 +1680,7 @@
         <mxCell id="EyK-WJGWIrIH9SYDay0k-8" value="" style="endArrow=none;html=1;" edge="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="1290" as="sourcePoint" />
-            <mxPoint x="1020" y="1250" as="targetPoint" />
+            <mxPoint x="1010" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EyK-WJGWIrIH9SYDay0k-9" value="" style="endArrow=none;html=1;" edge="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
@@ -1747,6 +1747,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="1320" as="sourcePoint" />
             <mxPoint x="880" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyK-WJGWIrIH9SYDay0k-20" value="&lt;b&gt;Consulter les recherches et documents&lt;br&gt;Astra&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+          <mxGeometry x="1080" y="1310" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EyK-WJGWIrIH9SYDay0k-21" value="" style="endArrow=none;html=1;" edge="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="1320" as="sourcePoint" />
+            <mxPoint x="1070" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyK-WJGWIrIH9SYDay0k-22" value="&lt;b&gt;Réceptionner&amp;nbsp;l&#39;email et&lt;/b&gt;&lt;br&gt;&lt;b&gt;ouvrir le lien&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+          <mxGeometry x="1300" y="1130" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EyK-WJGWIrIH9SYDay0k-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="UopZFWTQNXxMyw-JJ6f5-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1180" y="1165" as="sourcePoint" />
+            <mxPoint x="1270" y="1165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
