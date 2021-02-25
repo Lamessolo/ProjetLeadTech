@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T22:06:15.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="TiAz6HIFZxDy8QE3X-sJ" version="14.4.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-25T22:09:43.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="UWF6U_VAgWznZ7xc_cgs" version="14.4.3" type="github" pages="10">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="806" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -682,10 +682,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZQBFYvCCky1Yyn8IJ51x" name="Archi_MicroService_Astra">
-    <mxGraphModel dx="806" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1087" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="4fTbdOuplWJWy0ZnZLD6-0" />
         <mxCell id="4fTbdOuplWJWy0ZnZLD6-1" parent="4fTbdOuplWJWy0ZnZLD6-0" />
+        <mxCell id="u-Z-MYE-GnX1YJUbi5az-0" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
+          <mxGeometry x="570" y="53.37" width="909.04" height="593.26" as="geometry" />
+        </mxCell>
         <mxCell id="NmWVBECwTo6Fk8e4JsEo-1" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tablet_2;dashed=1;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
           <mxGeometry x="321.87" y="290" width="70.08" height="73.5" as="geometry" />
         </mxCell>
@@ -899,6 +902,9 @@
         </mxCell>
         <mxCell id="TE2T-DFg_tUUECxPcO_U-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
           <mxGeometry x="857.96" y="153.47000000000003" width="26.26" height="26.26" as="geometry" />
+        </mxCell>
+        <mxCell id="u-Z-MYE-GnX1YJUbi5az-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;CLOUD&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
+          <mxGeometry x="1019.26" y="90" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
