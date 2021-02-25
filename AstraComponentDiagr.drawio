@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T03:00:34.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="RRNtJLeK9crhAU0HcEoh" version="14.4.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-25T03:57:36.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="91GDyAdEXfn-Xh0H-RQa" version="14.4.3" type="github" pages="11">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="852" dy="2860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1235,13 +1235,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EnPNw-xOLTbrAf3U8R11" name="AchitectureGlobale_Astra">
-    <mxGraphModel dx="1258" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1150" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="bT6sjzDnVI1TFIL7tKOR-0" />
         <mxCell id="bT6sjzDnVI1TFIL7tKOR-1" parent="bT6sjzDnVI1TFIL7tKOR-0" />
-        <mxCell id="ccodrBo6FLIAeeQpvTBO-14" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cloud;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="450" y="99.38" width="967.39" height="631.36" as="geometry" />
-        </mxCell>
         <mxCell id="kV1tv-RgT3h8zwZ7mlds-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
           <mxGeometry x="961.24" y="80.38999999999999" width="143" height="78.5" as="geometry" />
         </mxCell>
@@ -1285,13 +1282,13 @@
           <mxGeometry x="962.48" y="80" width="36.26" height="36.26" as="geometry" />
         </mxCell>
         <mxCell id="kkAkB6MdZhtV61pgUnCI-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1147.5" y="100.87" width="132.62" height="77" as="geometry" />
+          <mxGeometry x="1147.5" y="100.87" width="132.62" height="69.13" as="geometry" />
         </mxCell>
         <mxCell id="kkAkB6MdZhtV61pgUnCI-1" value="Email" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1177.5" y="110.87" width="99.81" height="60" as="geometry" />
+          <mxGeometry x="1177.5" y="110.87" width="99.81" height="49.13" as="geometry" />
         </mxCell>
         <mxCell id="kkAkB6MdZhtV61pgUnCI-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1149.4999999999998" y="100" width="36.26" height="36.26" as="geometry" />
+          <mxGeometry x="1149.5" y="100" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kkAkB6MdZhtV61pgUnCI-8" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
           <mxGeometry x="961.24" y="200" width="150" height="74.57" as="geometry" />
@@ -1306,61 +1303,61 @@
           <mxGeometry x="961.24" y="200" width="36.26" height="36.26" as="geometry" />
         </mxCell>
         <mxCell id="kkAkB6MdZhtV61pgUnCI-12" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1140" y="498.41999999999996" width="147.62" height="90" as="geometry" />
+          <mxGeometry x="674.97" y="633.74" width="130.06" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kkAkB6MdZhtV61pgUnCI-13" value="Gestion des Documents&lt;br&gt;Astra" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1162.5600000000002" y="508.41999999999996" width="102.5" height="70" as="geometry" />
+          <mxGeometry x="697.53" y="642.27" width="102.5" height="58.42" as="geometry" />
         </mxCell>
         <mxCell id="kkAkB6MdZhtV61pgUnCI-14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1257.62" y="539.54" width="23.45" height="31.26" as="geometry" />
+          <mxGeometry x="781.6399999999999" y="671.8100000000001" width="21.66" height="28.88" as="geometry" />
         </mxCell>
         <mxCell id="kkAkB6MdZhtV61pgUnCI-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1140" y="498.41999999999996" width="36.26" height="36.26" as="geometry" />
+          <mxGeometry x="674.97" y="633.74" width="31.58" height="31.58" as="geometry" />
         </mxCell>
         <mxCell id="3EaiF5IeyrSelyzoTh0h-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="830" y="328.39" width="140" height="90" as="geometry" />
+          <mxGeometry x="673.73" y="303.74" width="132.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3EaiF5IeyrSelyzoTh0h-1" value="&amp;nbsp;Enregistrements" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="853.8" y="336.53" width="100" height="70.25" as="geometry" />
+          <mxGeometry x="690.01" y="312.35" width="98.7" height="58.39" as="geometry" />
         </mxCell>
         <mxCell id="3EaiF5IeyrSelyzoTh0h-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="939.5699999999999" y="383.53" width="21.09" height="28.11" as="geometry" />
+          <mxGeometry x="772.6400000000001" y="349.05" width="18.65" height="24.86" as="geometry" />
         </mxCell>
         <mxCell id="3EaiF5IeyrSelyzoTh0h-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="831.24" y="328.3900000000001" width="36.26" height="36.26" as="geometry" />
+          <mxGeometry x="674.97" y="303.74" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3EaiF5IeyrSelyzoTh0h-8" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="568.81" y="354.6499999999999" width="131.19" height="76.87" as="geometry" />
+          <mxGeometry x="670.0000000000001" y="553.74" width="131.19" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3EaiF5IeyrSelyzoTh0h-9" value="Messagerie&lt;br&gt;Instantané" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="598.81" y="360.02000000000004" width="98" height="61.5" as="geometry" />
+          <mxGeometry x="700.0000000000001" y="559.11" width="98" height="54.63" as="geometry" />
         </mxCell>
         <mxCell id="3EaiF5IeyrSelyzoTh0h-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="570.05" y="356.51000000000005" width="37.76" height="37.76" as="geometry" />
+          <mxGeometry x="671.2400000000001" y="555.6" width="28.14" height="28.14" as="geometry" />
         </mxCell>
         <mxCell id="sixX_LNXr07oT62l6ZDq-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="700" y="450.03" width="140" height="90" as="geometry" />
+          <mxGeometry x="673.73" y="393.74" width="131.26" height="68.48" as="geometry" />
         </mxCell>
         <mxCell id="sixX_LNXr07oT62l6ZDq-1" value="Réunion&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bdashed%3D1%3BstrokeWidth%3D3%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221168.75%22%20y%3D%22252.14%22%20width%3D%22140%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22Enregistrement%22%20style%3D%22shape%3Dhexagon%3Bperimeter%3DhexagonPerimeter2%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfixedSize%3D1%3BfillColor%3D%23fff2cc%3BstrokeColor%3D%23d6b656%3BstrokeWidth%3D3%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221192.55%22%20y%3D%22260.28%22%20width%3D%22100%22%20height%3D%2270.25%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22%22%20style%3D%22aspect%3Dfixed%3Bhtml%3D1%3Bpoints%3D%5B%5D%3Balign%3Dcenter%3Bimage%3BfontSize%3D12%3Bimage%3Dimg%2Flib%2Fazure2%2Fdatabases%2FSQL_Database.svg%3BstrokeWidth%3D3%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221278.32%22%20y%3D%22307.28%22%20width%3D%2221.09%22%20height%3D%2228.11%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%22%20style%3D%22shape%3Dimage%3Bhtml%3D1%3BverticalAlign%3Dtop%3BverticalLabelPosition%3Dbottom%3BlabelBackgroundColor%3D%23ffffff%3BimageAspect%3D0%3Baspect%3Dfixed%3Bimage%3Dhttps%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Flogos-and-brands%2F512%2F97_Docker_logo_logos-128.png%3Bdashed%3D1%3BstrokeWidth%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221169.99%22%20y%3D%22252.1400000000001%22%20width%3D%2236.26%22%20height%3D%2236.26%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22API%26lt%3Bbr%26gt%3BREST%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D2%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221168.75%22%20y%3D%22321.89%22%20width%3D%2237.5%22%20height%3D%2233.25%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;&amp;nbsp;web" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="723.8" y="458.16999999999996" width="100" height="70.25" as="geometry" />
+          <mxGeometry x="693.73" y="403.96000000000004" width="100" height="49.91" as="geometry" />
         </mxCell>
         <mxCell id="sixX_LNXr07oT62l6ZDq-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;strokeWidth=3;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="809.5699999999999" y="505.16999999999996" width="21.09" height="28.11" as="geometry" />
+          <mxGeometry x="772.64" y="425.76" width="21.09" height="28.11" as="geometry" />
         </mxCell>
         <mxCell id="sixX_LNXr07oT62l6ZDq-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="701.24" y="450.0300000000001" width="36.26" height="36.26" as="geometry" />
+          <mxGeometry x="674.97" y="393.74" width="28.48" height="28.48" as="geometry" />
         </mxCell>
         <mxCell id="sixX_LNXr07oT62l6ZDq-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="900" y="533.28" width="140" height="90" as="geometry" />
+          <mxGeometry x="673.73" y="480.05999999999995" width="127.46" height="60.46" as="geometry" />
         </mxCell>
         <mxCell id="sixX_LNXr07oT62l6ZDq-6" value="Formation" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="920" y="543.16" width="100" height="70.25" as="geometry" />
+          <mxGeometry x="691.84" y="485.53" width="100" height="49.67" as="geometry" />
         </mxCell>
         <mxCell id="sixX_LNXr07oT62l6ZDq-7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;strokeWidth=3;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="1009.5699999999999" y="588.42" width="21.09" height="28.11" as="geometry" />
+          <mxGeometry x="772.84" y="509.8799999999999" width="19" height="25.32" as="geometry" />
         </mxCell>
         <mxCell id="sixX_LNXr07oT62l6ZDq-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="901.24" y="533.2800000000001" width="36.26" height="36.26" as="geometry" />
+          <mxGeometry x="674.97" y="480.05999999999995" width="30.46" height="30.46" as="geometry" />
         </mxCell>
         <mxCell id="_ur0f6sQSgRYIJgbyK3z-0" value="" style="endArrow=classic;html=1;" edge="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1427,6 +1424,12 @@
           <mxGeometry x="-0.2222" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ccodrBo6FLIAeeQpvTBO-17" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
+          <mxGeometry x="1055.1100000000001" y="519.47" width="36.13" height="36.13" as="geometry" />
+        </mxCell>
+        <mxCell id="ccodrBo6FLIAeeQpvTBO-18" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
+          <mxGeometry x="828.76" y="489.91" width="316.88" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
