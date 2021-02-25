@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T04:11:28.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="CfRXpIg7DF1XUqXYAqYg" version="14.4.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-25T04:17:03.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="HWwUNAoS5GGMjAgjJ9An" version="14.4.3" type="github" pages="11">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
-    <mxGraphModel dx="852" dy="2860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="2860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -399,7 +399,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ArchiExistant_GlobalAstra" id="gJYPC504AEFtOxvmRFQ4">
-    <mxGraphModel dx="1018" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="vhx2vBS3irySZ_pV3HSS-0" />
         <mxCell id="vhx2vBS3irySZ_pV3HSS-1" parent="vhx2vBS3irySZ_pV3HSS-0" />
@@ -644,7 +644,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DB__-z2srqPdFhaWFiU-" name="Logiciel_VisioAstra">
-    <mxGraphModel dx="2672" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2730" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="e5EIBYE1KxdU-MoMEidJ-0" />
         <mxCell id="e5EIBYE1KxdU-MoMEidJ-1" parent="e5EIBYE1KxdU-MoMEidJ-0" />
@@ -727,7 +727,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZQBFYvCCky1Yyn8IJ51x" name="Archi_MicroService_Astra">
-    <mxGraphModel dx="852" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="4fTbdOuplWJWy0ZnZLD6-0" />
         <mxCell id="4fTbdOuplWJWy0ZnZLD6-1" parent="4fTbdOuplWJWy0ZnZLD6-0" />
@@ -912,7 +912,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ArchiExistant_MicroService_Astra" id="X7MRmnuXfjMLheSM_o_8">
-    <mxGraphModel dx="852" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="SruLgMFjXxdbzBbFKImx-0" />
         <mxCell id="SruLgMFjXxdbzBbFKImx-1" parent="SruLgMFjXxdbzBbFKImx-0" />
@@ -1004,8 +1004,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="_Rrs4zTGSS4Dk9WFRaEN" name="EtudeDuDomaine_AstraRec">
-    <mxGraphModel dx="852" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+  <diagram id="_Rrs4zTGSS4Dk9WFRaEN" name="UseCase_ComService_Astra">
+    <mxGraphModel dx="1076" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="OxBj5hrYAivJY2QvUbFt-0" />
         <mxCell id="OxBj5hrYAivJY2QvUbFt-1" parent="OxBj5hrYAivJY2QvUbFt-0" />
@@ -1281,15 +1281,6 @@
         <mxCell id="T6KssBdPQGRPNMVIezPi-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
           <mxGeometry x="962.48" y="80" width="36.26" height="36.26" as="geometry" />
         </mxCell>
-        <mxCell id="kkAkB6MdZhtV61pgUnCI-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1147.5" y="100.87" width="132.62" height="69.13" as="geometry" />
-        </mxCell>
-        <mxCell id="kkAkB6MdZhtV61pgUnCI-1" value="Email" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1177.5" y="110.87" width="99.81" height="49.13" as="geometry" />
-        </mxCell>
-        <mxCell id="kkAkB6MdZhtV61pgUnCI-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="1149.5" y="100" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="kkAkB6MdZhtV61pgUnCI-8" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
           <mxGeometry x="961.24" y="200" width="150" height="74.57" as="geometry" />
         </mxCell>
@@ -1376,7 +1367,7 @@
             <mxPoint x="560" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ur0f6sQSgRYIJgbyK3z-3" value="JWT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_ur0f6sQSgRYIJgbyK3z-2">
+        <mxCell id="_ur0f6sQSgRYIJgbyK3z-3" value="Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_ur0f6sQSgRYIJgbyK3z-2">
           <mxGeometry x="-0.3692" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1424,9 +1415,6 @@
           <mxGeometry x="-0.2222" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ccodrBo6FLIAeeQpvTBO-17" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus.svg;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="1070.7099999999998" y="563.21" width="20.53" height="20.53" as="geometry" />
         </mxCell>
         <mxCell id="ccodrBo6FLIAeeQpvTBO-19" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.451;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bT6sjzDnVI1TFIL7tKOR-1" source="Cajok3hApunfA9CYzbb5-31" target="sixX_LNXr07oT62l6ZDq-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1505,6 +1493,9 @@
             <mxPoint x="827" y="472.22" as="sourcePoint" />
             <mxPoint x="877" y="422.22" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Xa0GLrW1ggYrMk692aW3-1" value="Requete + Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
+          <mxGeometry x="540" y="342.07" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
