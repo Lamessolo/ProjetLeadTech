@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T19:47:38.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="E2w3xktQhp9kBKpkLdsa" version="14.4.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-25T20:20:32.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="fxSzb1yGPYIwNLmDag0N" version="14.4.3" type="github" pages="10">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
-    <mxGraphModel dx="1046" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="806" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -437,7 +437,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ArchiExistant_GlobalAstra" id="gJYPC504AEFtOxvmRFQ4">
-    <mxGraphModel dx="1046" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="806" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="vhx2vBS3irySZ_pV3HSS-0" />
         <mxCell id="vhx2vBS3irySZ_pV3HSS-1" parent="vhx2vBS3irySZ_pV3HSS-0" />
@@ -681,89 +681,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="DB__-z2srqPdFhaWFiU-" name="Logiciel_VisioAstra">
-    <mxGraphModel dx="2700" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
-      <root>
-        <mxCell id="e5EIBYE1KxdU-MoMEidJ-0" />
-        <mxCell id="e5EIBYE1KxdU-MoMEidJ-1" parent="e5EIBYE1KxdU-MoMEidJ-0" />
-        <mxCell id="GQ5UMtFX6s5FuDMJb1mm-0" value="&lt;b&gt;Resource Owner&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/free-large-boss-icon-set/128/Admin.png" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="20" y="200" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GQ5UMtFX6s5FuDMJb1mm-1" value="&lt;b&gt;Application&amp;nbsp;&lt;br&gt;Client&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="20" y="300" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-BXv5hBYp65_B_O3Tg_M-0" value="Gestion des Historique" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="777" y="80" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="-BXv5hBYp65_B_O3Tg_M-1" value="" style="endArrow=classic;html=1;" parent="e5EIBYE1KxdU-MoMEidJ-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="310" as="sourcePoint" />
-            <mxPoint x="770" y="150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-BXv5hBYp65_B_O3Tg_M-2" value="Je souhaite consulter mes historique de session" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-30;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="500" y="200" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-BXv5hBYp65_B_O3Tg_M-3" value="&lt;b&gt;Authentification&lt;br&gt;Autorisation&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="320" y="300" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-BXv5hBYp65_B_O3Tg_M-4" value="" style="shape=flexArrow;endArrow=classic;html=1;width=16;endSize=14.28;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="e5EIBYE1KxdU-MoMEidJ-1" target="-BXv5hBYp65_B_O3Tg_M-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="340" as="sourcePoint" />
-            <mxPoint x="250" y="298" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-BXv5hBYp65_B_O3Tg_M-5" value="J&#39;accede a la solution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="170" y="270" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-BXv5hBYp65_B_O3Tg_M-6" value="&lt;b&gt;HTTPS (JSON)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="170" y="350" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-BXv5hBYp65_B_O3Tg_M-8" value="&lt;b&gt;HTTPS (JSON)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-30;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="570" y="240.00000000000003" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-BXv5hBYp65_B_O3Tg_M-9" value="Messagerie instantanée" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="850" y="230" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="e-z9MMfugTKvnGVqRZ9x-0" value="" style="endArrow=classic;html=1;entryX=0.006;entryY=0.618;entryDx=0;entryDy=0;entryPerimeter=0;" parent="e5EIBYE1KxdU-MoMEidJ-1" target="-BXv5hBYp65_B_O3Tg_M-9" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="350" as="sourcePoint" />
-            <mxPoint x="820" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e-z9MMfugTKvnGVqRZ9x-1" value="Je veux converser avec un autre participant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="587" y="280" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="e-z9MMfugTKvnGVqRZ9x-3" value="&lt;b&gt;HTTPS (JSON)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="605" y="340" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="e-z9MMfugTKvnGVqRZ9x-4" value="Streaming" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="830" y="440" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="e-z9MMfugTKvnGVqRZ9x-6" value="" style="endArrow=classic;html=1;" parent="e5EIBYE1KxdU-MoMEidJ-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="380" as="sourcePoint" />
-            <mxPoint x="820" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e-z9MMfugTKvnGVqRZ9x-7" value="Je souhaite consulter des vidéo et présentation enregistre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=15;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="515" y="400" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8MOIZytL5q8ewFZOJu_m-0" value="Session" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="760" y="570" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="8MOIZytL5q8ewFZOJu_m-1" value="" style="endArrow=classic;html=1;entryX=0.05;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="e5EIBYE1KxdU-MoMEidJ-1" target="8MOIZytL5q8ewFZOJu_m-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="390" as="sourcePoint" />
-            <mxPoint x="750" y="540" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8MOIZytL5q8ewFZOJu_m-2" value="Je souhaite consulter des vidéo et présentation enregistre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=15;" parent="e5EIBYE1KxdU-MoMEidJ-1" vertex="1">
-          <mxGeometry x="360" y="500" width="280" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="ZQBFYvCCky1Yyn8IJ51x" name="Archi_MicroService_Astra">
     <mxGraphModel dx="806" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -812,28 +729,28 @@
           <mxGeometry x="1230.74" y="137.86" width="26.26" height="26.26" as="geometry" />
         </mxCell>
         <mxCell id="oe5nO8awTmNw3I0uEcab-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="859.39" y="280" width="140" height="63.5" as="geometry" />
+          <mxGeometry x="865.64" y="250" width="140" height="63.5" as="geometry" />
         </mxCell>
         <mxCell id="oe5nO8awTmNw3I0uEcab-5" value="Enregistrements&amp;nbsp;&lt;br&gt;utilisateurs" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="883.96" y="290" width="100" height="46.13" as="geometry" />
+          <mxGeometry x="890.21" y="260" width="100" height="46.13" as="geometry" />
         </mxCell>
         <mxCell id="oe5nO8awTmNw3I0uEcab-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="971.15" y="306.25" width="22.5" height="30" as="geometry" />
+          <mxGeometry x="977.4" y="276.25" width="22.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oe5nO8awTmNw3I0uEcab-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="861.0400000000002" y="280" width="30" height="30" as="geometry" />
+          <mxGeometry x="867.2900000000002" y="250" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oe5nO8awTmNw3I0uEcab-12" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="863.65" y="381.26" width="130" height="70" as="geometry" />
+          <mxGeometry x="869.9" y="351.26" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="oe5nO8awTmNw3I0uEcab-13" value="Réunions Web&lt;br&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="879.4699999999999" y="391.26" width="98" height="46.24" as="geometry" />
+          <mxGeometry x="885.7199999999999" y="361.26" width="98" height="46.24" as="geometry" />
         </mxCell>
         <mxCell id="oe5nO8awTmNw3I0uEcab-14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="961.14" y="421.26" width="22.51" height="30" as="geometry" />
+          <mxGeometry x="967.39" y="391.26" width="22.51" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oe5nO8awTmNw3I0uEcab-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="863.65" y="380" width="27.39" height="27.39" as="geometry" />
+          <mxGeometry x="869.9" y="350" width="27.39" height="27.39" as="geometry" />
         </mxCell>
         <mxCell id="cSRtzzhI-j-st68Xankh-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
           <mxGeometry x="1104.26" y="410" width="118.75" height="70" as="geometry" />
@@ -845,16 +762,16 @@
           <mxGeometry x="1104.26" y="421.26" width="25.01" height="25.01" as="geometry" />
         </mxCell>
         <mxCell id="mxD1uQOQZV_ZXBljRCzo-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="858.47" y="473.11" width="140" height="71.75" as="geometry" />
+          <mxGeometry x="864.72" y="443.11" width="140" height="71.75" as="geometry" />
         </mxCell>
         <mxCell id="mxD1uQOQZV_ZXBljRCzo-1" value="Formations utilisateurs" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="888.47" y="483.11" width="102.5" height="53.87" as="geometry" />
+          <mxGeometry x="894.72" y="453.11" width="102.5" height="53.87" as="geometry" />
         </mxCell>
         <mxCell id="mxD1uQOQZV_ZXBljRCzo-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="970.97" y="502.1" width="23.26" height="31.01" as="geometry" />
+          <mxGeometry x="977.22" y="472.1" width="23.26" height="31.01" as="geometry" />
         </mxCell>
         <mxCell id="mxD1uQOQZV_ZXBljRCzo-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
-          <mxGeometry x="864.72" y="476.61" width="31.39" height="31.39" as="geometry" />
+          <mxGeometry x="870.97" y="446.61" width="31.39" height="31.39" as="geometry" />
         </mxCell>
         <mxCell id="MBPg87kFZgNxjz0FW57Z-0" value="&lt;b&gt;Authentification&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" parent="4fTbdOuplWJWy0ZnZLD6-1" vertex="1">
           <mxGeometry x="864.72" y="144.12" width="110" height="89.24" as="geometry" />
@@ -951,16 +868,49 @@
           <mxGeometry x="1190" y="237.48" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-NoA5XP742JFFnqDIIga-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
-          <mxGeometry x="1290" y="420" width="130.06" height="70" as="geometry" />
+          <mxGeometry x="1230.74" y="520" width="130.06" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-NoA5XP742JFFnqDIIga-1" value="Gestion des Documents&lt;br&gt;Astra" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
-          <mxGeometry x="1312.56" y="428.53" width="102.5" height="58.42" as="geometry" />
+          <mxGeometry x="1253.3" y="528.53" width="102.5" height="58.42" as="geometry" />
         </mxCell>
         <mxCell id="-NoA5XP742JFFnqDIIga-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;strokeWidth=3;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
-          <mxGeometry x="1396.6699999999998" y="458.07000000000016" width="21.66" height="28.88" as="geometry" />
+          <mxGeometry x="1337.4099999999999" y="558.0700000000002" width="21.66" height="28.88" as="geometry" />
         </mxCell>
         <mxCell id="-NoA5XP742JFFnqDIIga-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
-          <mxGeometry x="1290" y="420" width="31.58" height="31.58" as="geometry" />
+          <mxGeometry x="1230.74" y="520" width="31.58" height="31.58" as="geometry" />
+        </mxCell>
+        <mxCell id="8uRjgxjX_qTEyAhLQgGe-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
+          <mxGeometry x="868.7100000000003" y="530" width="131.19" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8uRjgxjX_qTEyAhLQgGe-1" value="Documents utilisateurs" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
+          <mxGeometry x="898.7100000000003" y="535.37" width="98" height="54.63" as="geometry" />
+        </mxCell>
+        <mxCell id="8uRjgxjX_qTEyAhLQgGe-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-128.png;dashed=1;strokeWidth=1;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
+          <mxGeometry x="869.9500000000003" y="531.86" width="28.14" height="28.14" as="geometry" />
+        </mxCell>
+        <mxCell id="8uRjgxjX_qTEyAhLQgGe-3" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4fTbdOuplWJWy0ZnZLD6-1" target="8uRjgxjX_qTEyAhLQgGe-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="390" as="sourcePoint" />
+            <mxPoint x="860" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TE2T-DFg_tUUECxPcO_U-0" value="Event Bus" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
+          <mxGeometry x="1084.27" y="513.9300000000001" width="45" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TE2T-DFg_tUUECxPcO_U-1" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="4fTbdOuplWJWy0ZnZLD6-1" source="8uRjgxjX_qTEyAhLQgGe-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1006.25" y="560.0012" as="sourcePoint" />
+            <mxPoint x="1059.26" y="560.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TE2T-DFg_tUUECxPcO_U-3" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="4fTbdOuplWJWy0ZnZLD6-1" source="TE2T-DFg_tUUECxPcO_U-0" target="-NoA5XP742JFFnqDIIga-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1154" y="551" as="sourcePoint" />
+            <mxPoint x="1253.2999999999997" y="541.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TE2T-DFg_tUUECxPcO_U-4" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.worxmail;fillColor=#112356;gradientColor=#63AFC6;gradientDirection=south;" vertex="1" parent="4fTbdOuplWJWy0ZnZLD6-1">
+          <mxGeometry x="1190" y="535.37" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1289,7 +1239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EnPNw-xOLTbrAf3U8R11" name="AchitectureGlobale_Astra">
-    <mxGraphModel dx="1046" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="806" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="bT6sjzDnVI1TFIL7tKOR-0" />
         <mxCell id="bT6sjzDnVI1TFIL7tKOR-1" parent="bT6sjzDnVI1TFIL7tKOR-0" />
