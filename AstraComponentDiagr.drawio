@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T09:03:38.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="UNrgp6p58t__pQ-S1nbX" version="14.4.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-26T09:16:14.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ZDMkyxyqKtr_WOnswLwH" version="14.4.3" type="github" pages="10">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="806" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1440,7 +1440,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9xEvhJD85xAkgXQbJFUp" name="ProcessusAuthentification_Astra">
-    <mxGraphModel dx="1258" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1078" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_kZEegycePAFInCoPvcU-0" />
         <mxCell id="_kZEegycePAFInCoPvcU-1" parent="_kZEegycePAFInCoPvcU-0" />
@@ -1679,7 +1679,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XCttHodmZBj_5krX0TPp" name="CasUtilisation_AstraRecherche">
-    <mxGraphModel dx="1975" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2247" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="UopZFWTQNXxMyw-JJ6f5-0" />
         <mxCell id="UopZFWTQNXxMyw-JJ6f5-1" parent="UopZFWTQNXxMyw-JJ6f5-0" />
@@ -1846,10 +1846,46 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ly9zXLwPT1WfyUDR2ulM" name="Page-11">
-    <mxGraphModel dx="806" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1078" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="bjbh8H2XcP0sxCfSQQIm-0" />
         <mxCell id="bjbh8H2XcP0sxCfSQQIm-1" parent="bjbh8H2XcP0sxCfSQQIm-0" />
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-4" value="Formation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="bjbh8H2XcP0sxCfSQQIm-1">
+          <mxGeometry x="260" y="90" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-5" value="+ Id: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nkPtRW6Gg26V1SW7e8MM-4">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-6" value="+ Name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nkPtRW6Gg26V1SW7e8MM-4">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-8" value="Utilisateurs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="bjbh8H2XcP0sxCfSQQIm-1">
+          <mxGeometry x="470" y="160" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-9" value="+ Id: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nkPtRW6Gg26V1SW7e8MM-8">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-10" value="+ Name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nkPtRW6Gg26V1SW7e8MM-8">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-11" value="Reunion Web" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="bjbh8H2XcP0sxCfSQQIm-1">
+          <mxGeometry x="230" y="270" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-12" value="+ Id: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nkPtRW6Gg26V1SW7e8MM-11">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-13" value="+ Name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nkPtRW6Gg26V1SW7e8MM-11">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-14" value="Enregistrements" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="bjbh8H2XcP0sxCfSQQIm-1">
+          <mxGeometry x="480" y="330" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-15" value="+ Id: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nkPtRW6Gg26V1SW7e8MM-14">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nkPtRW6Gg26V1SW7e8MM-16" value="+ Name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nkPtRW6Gg26V1SW7e8MM-14">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
