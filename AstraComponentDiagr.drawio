@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T09:02:55.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="nF0YBrTmkiqoHkElz0RP" version="14.4.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-26T09:03:38.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="UNrgp6p58t__pQ-S1nbX" version="14.4.3" type="github" pages="10">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="806" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1665,21 +1665,15 @@
         <mxCell id="0OQhyZHTOG8m8Hx7LMjE-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ySWNm7CiKosOGVYnY_Fq-1">
           <mxGeometry x="350" y="540" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0OQhyZHTOG8m8Hx7LMjE-1" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="0OQhyZHTOG8m8Hx7LMjE-0" parent="ySWNm7CiKosOGVYnY_Fq-1">
+        <mxCell id="0OQhyZHTOG8m8Hx7LMjE-1" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;/Resource&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="0OQhyZHTOG8m8Hx7LMjE-0" parent="ySWNm7CiKosOGVYnY_Fq-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="545" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0OQhyZHTOG8m8Hx7LMjE-2" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="0OQhyZHTOG8m8Hx7LMjE-0" parent="ySWNm7CiKosOGVYnY_Fq-1">
+        <mxCell id="0OQhyZHTOG8m8Hx7LMjE-2" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Redirection vers l&#39;Auth server&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="0OQhyZHTOG8m8Hx7LMjE-0" parent="ySWNm7CiKosOGVYnY_Fq-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="578" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="0OQhyZHTOG8m8Hx7LMjE-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Redirection vers l&#39;Auth server&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ySWNm7CiKosOGVYnY_Fq-1">
-          <mxGeometry x="250" y="440" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0OQhyZHTOG8m8Hx7LMjE-4" value="/Resource" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ySWNm7CiKosOGVYnY_Fq-1">
-          <mxGeometry x="180" y="430" width="60" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
