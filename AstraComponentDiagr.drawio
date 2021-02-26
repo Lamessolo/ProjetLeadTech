@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T18:00:36.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="VOCCq-T-xy--nVT-9-93" version="14.4.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-26T18:06:04.363Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="QqmrRd2ZXSuI9bJLp321" version="14.4.3" type="github" pages="10">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="1046" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1679,11 +1679,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XCttHodmZBj_5krX0TPp" name="CasUtilisation_AstraRecherche">
-    <mxGraphModel dx="2215" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2427" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="UopZFWTQNXxMyw-JJ6f5-0" />
         <mxCell id="UopZFWTQNXxMyw-JJ6f5-1" parent="UopZFWTQNXxMyw-JJ6f5-0" />
-        <mxCell id="d9X3gW3VlUE2Jg3UlJXZ-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Partenaires&lt;br&gt;externes&lt;/font&gt;&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
+        <mxCell id="d9X3gW3VlUE2Jg3UlJXZ-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Utilisateurs&lt;br&gt;externes&lt;/font&gt;&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
           <mxGeometry x="600" y="1120" width="100" height="160" as="geometry" />
         </mxCell>
         <mxCell id="d9X3gW3VlUE2Jg3UlJXZ-1" value="&lt;b&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Utilisateur&lt;br&gt;&lt;/span&gt;ASTRA&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="UopZFWTQNXxMyw-JJ6f5-1" vertex="1">
@@ -1786,6 +1786,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="1290" as="sourcePoint" />
             <mxPoint x="700" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3DTaDVemUnignw5knId-14" value="" style="endArrow=none;html=1;entryX=0.6;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="UopZFWTQNXxMyw-JJ6f5-1" target="8RZzQM4G-6TL5niZr_sO-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="1110" as="sourcePoint" />
+            <mxPoint x="505.00484200955384" y="1044.9959368038215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
