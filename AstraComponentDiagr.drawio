@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T21:17:07.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="InDITSyToUY5CsEh_P29" version="14.4.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-01T21:19:13.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="C58C4k12EQ9RtvC9rxVb" version="14.4.3" type="github" pages="10">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="1038" dy="2859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1033,7 +1033,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EnPNw-xOLTbrAf3U8R11" name="AchitectureGlobale_Astra">
-    <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="bT6sjzDnVI1TFIL7tKOR-0" />
         <mxCell id="bT6sjzDnVI1TFIL7tKOR-1" parent="bT6sjzDnVI1TFIL7tKOR-0" />
@@ -1273,7 +1273,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Rrs4zTGSS4Dk9WFRaEN" name="UseCase_ComService_Astra">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="OxBj5hrYAivJY2QvUbFt-0" />
         <mxCell id="OxBj5hrYAivJY2QvUbFt-1" parent="OxBj5hrYAivJY2QvUbFt-0" />
@@ -1485,7 +1485,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9xEvhJD85xAkgXQbJFUp" name="ProcessusAuthentification_Astra">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_kZEegycePAFInCoPvcU-0" />
         <mxCell id="_kZEegycePAFInCoPvcU-1" parent="_kZEegycePAFInCoPvcU-0" />
@@ -1659,12 +1659,6 @@
             <mxPoint x="120" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vPNCewZvqb2uZrc3U2up-24" value="Vérification&lt;br&gt;Signature" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#ffffff;" parent="ySWNm7CiKosOGVYnY_Fq-1" vertex="1">
-          <mxGeometry x="369" y="930" width="121" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vPNCewZvqb2uZrc3U2up-25" value="Acces Resource" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="ySWNm7CiKosOGVYnY_Fq-1" vertex="1">
-          <mxGeometry x="10" y="940" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="0OQhyZHTOG8m8Hx7LMjE-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ySWNm7CiKosOGVYnY_Fq-1" vertex="1">
           <mxGeometry x="350" y="580" width="10" height="40" as="geometry" />
         </mxCell>
@@ -1720,15 +1714,6 @@
         </mxCell>
         <mxCell id="ZQqCE0OZLJT4oMEkrENh-15" value="Ressource réclamé" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="ySWNm7CiKosOGVYnY_Fq-1" vertex="1">
           <mxGeometry x="39.75" y="780" width="70.25" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZQqCE0OZLJT4oMEkrENh-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ySWNm7CiKosOGVYnY_Fq-1" vertex="1">
-          <mxGeometry x="361" y="810" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ZQqCE0OZLJT4oMEkrENh-19" value="" style="endArrow=classic;html=1;strokeWidth=2;exitX=0.2;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ySWNm7CiKosOGVYnY_Fq-1" source="ZQqCE0OZLJT4oMEkrENh-18" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="373.18" y="850" as="sourcePoint" />
-            <mxPoint x="120" y="850" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="QdMoqzGAQTcjCGukcW4x-3" value="Accéder a un document" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="ySWNm7CiKosOGVYnY_Fq-1">
           <mxGeometry x="10" y="680" width="80" height="40" as="geometry" />
