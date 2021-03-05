@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T14:57:40.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="w36ayWSpYWN8lH86xFAZ" version="14.4.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-03-05T15:22:28.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="r5wR58EVI-kUMWWCSeux" version="14.4.4" type="github" pages="9">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="1046" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1140,16 +1140,31 @@
             <mxPoint x="980" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AC-8WivAbG_b1-_a8RkZ-69" value="Req 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AC-8WivAbG_b1-_a8RkZ-48">
+          <mxGeometry x="-0.2951" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AC-8WivAbG_b1-_a8RkZ-49" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="SruLgMFjXxdbzBbFKImx-1" source="AC-8WivAbG_b1-_a8RkZ-0" target="AC-8WivAbG_b1-_a8RkZ-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="846.5" y="1261.5" as="sourcePoint" />
             <mxPoint x="1002.5" y="1171.2931034482758" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AC-8WivAbG_b1-_a8RkZ-70" value="Req 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AC-8WivAbG_b1-_a8RkZ-49">
+          <mxGeometry x="-0.4625" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AC-8WivAbG_b1-_a8RkZ-50" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="SruLgMFjXxdbzBbFKImx-1" source="AC-8WivAbG_b1-_a8RkZ-0" target="AC-8WivAbG_b1-_a8RkZ-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="856.5" y="1271.5" as="sourcePoint" />
             <mxPoint x="1012.5" y="1181.2931034482758" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AC-8WivAbG_b1-_a8RkZ-71" value="Req 3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AC-8WivAbG_b1-_a8RkZ-50">
+          <mxGeometry x="-0.4385" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AC-8WivAbG_b1-_a8RkZ-51" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database;" vertex="1" parent="SruLgMFjXxdbzBbFKImx-1">
@@ -1200,7 +1215,7 @@
             <mxPoint x="1130" y="687.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AC-8WivAbG_b1-_a8RkZ-64" value="Orchestrateur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SruLgMFjXxdbzBbFKImx-1">
+        <mxCell id="AC-8WivAbG_b1-_a8RkZ-64" value="KUBERNETES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SruLgMFjXxdbzBbFKImx-1">
           <mxGeometry x="840" y="890" width="490" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AC-8WivAbG_b1-_a8RkZ-65" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="SruLgMFjXxdbzBbFKImx-1">
