@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T13:16:57.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="CRNmdXGZ71ZAv7qGWGET" version="14.4.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-03-05T13:17:38.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="-eN2Ws-WzlhmKQiiFYhY" version="14.4.4" type="github" pages="9">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="1046" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1129,7 +1129,7 @@
           <mxGeometry x="220" y="366.75" width="80.46" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cajok3hApunfA9CYzbb5-31" value="API&lt;br&gt;&amp;nbsp;&lt;br&gt;P&lt;br&gt;A&lt;br&gt;S&lt;br&gt;S&lt;br&gt;E&lt;br&gt;R&lt;br&gt;E&lt;br&gt;L&lt;br&gt;L&lt;br&gt;E" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="500" y="280" width="30" height="270" as="geometry" />
+          <mxGeometry x="500" y="230" width="30" height="370" as="geometry" />
         </mxCell>
         <mxCell id="Cajok3hApunfA9CYzbb5-2" value="&lt;b&gt;Firewall&lt;/b&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.firewall;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
           <mxGeometry x="360" y="360.25" width="53.63" height="66.5" as="geometry" />
