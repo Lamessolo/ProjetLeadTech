@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T19:23:23.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="kOstCAGZIZ2dv1JAOuaH" version="14.4.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-09T19:28:39.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="VnB9uM0gJaBiwNiiP-6B" version="14.4.4" type="github" pages="8">
   <diagram id="t8K_BKBWhnZSyjOZ11cl" name="Archi_GlobalAstra">
     <mxGraphModel dx="1258" dy="2860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -977,20 +977,16 @@
         <mxCell id="Cajok3hApunfA9CYzbb5-31" value="API&lt;br&gt;&amp;nbsp;&lt;br&gt;P&lt;br&gt;A&lt;br&gt;S&lt;br&gt;S&lt;br&gt;E&lt;br&gt;R&lt;br&gt;E&lt;br&gt;L&lt;br&gt;L&lt;br&gt;E" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
           <mxGeometry x="500" y="230" width="30" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="Cajok3hApunfA9CYzbb5-2" value="&lt;b&gt;Firewall&lt;/b&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.firewall;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="360" y="360.25" width="53.63" height="66.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Cajok3hApunfA9CYzbb5-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/CrystalClear/128x128/actions/decrypted.png;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="460" y="377" width="16.5" height="16.5" as="geometry" />
-        </mxCell>
         <mxCell id="Cajok3hApunfA9CYzbb5-45" value="" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="399" as="sourcePoint" />
+            <mxPoint x="400" y="399" as="sourcePoint" />
             <mxPoint x="490" y="399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cajok3hApunfA9CYzbb5-47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/security-and-protection-36/32/Security_and_Protection_security_protection_ssl_certificate-128.png;strokeWidth=1;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
-          <mxGeometry x="437" y="342.14" width="23" height="23" as="geometry" />
+        <mxCell id="jM7eIFpz0UI8iVmwZkiE-65" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cajok3hApunfA9CYzbb5-45">
+          <mxGeometry x="-0.68" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3EaiF5IeyrSelyzoTh0h-1" value="&amp;nbsp;Enregistrements" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" parent="bT6sjzDnVI1TFIL7tKOR-1" vertex="1">
           <mxGeometry x="793.48" y="319.42" width="98.7" height="36.5" as="geometry" />
@@ -1188,7 +1184,7 @@
           <mxGeometry x="819.42" y="345.08" width="50" height="19.23" as="geometry" />
         </mxCell>
         <mxCell id="jM7eIFpz0UI8iVmwZkiE-51" value="F&lt;br&gt;R&lt;br&gt;O&lt;br&gt;N&lt;br&gt;T&lt;br&gt;&lt;br&gt;E&lt;br&gt;N&lt;br&gt;D" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="280" y="227.72" width="40" height="370" as="geometry" />
+          <mxGeometry x="350" y="228.88" width="30" height="370" as="geometry" />
         </mxCell>
         <mxCell id="jM7eIFpz0UI8iVmwZkiE-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.1;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bT6sjzDnVI1TFIL7tKOR-1" target="Cajok3hApunfA9CYzbb5-31">
           <mxGeometry relative="1" as="geometry">
@@ -1214,7 +1210,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jM7eIFpz0UI8iVmwZkiE-61" value="&lt;b&gt;KUBERNETES&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
-          <mxGeometry x="510" y="620" width="550" height="30" as="geometry" />
+          <mxGeometry x="510" y="620" width="650" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jM7eIFpz0UI8iVmwZkiE-62" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes.svg;strokeWidth=2;" vertex="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
           <mxGeometry x="701.59" y="625" width="26.04" height="25" as="geometry" />
@@ -1240,6 +1236,17 @@
               <mxPoint x="1136" y="260" />
               <mxPoint x="531" y="260" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jM7eIFpz0UI8iVmwZkiE-66" value="" style="endArrow=classic;html=1;" edge="1" parent="bT6sjzDnVI1TFIL7tKOR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jM7eIFpz0UI8iVmwZkiE-68" value="JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jM7eIFpz0UI8iVmwZkiE-66">
+          <mxGeometry x="-0.6875" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
