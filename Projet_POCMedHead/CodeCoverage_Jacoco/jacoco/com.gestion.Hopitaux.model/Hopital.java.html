@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Hopital.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">hopitaux</a> &gt; <a href="index.source.html" class="el_package">com.gestion.Hopitaux.model</a> &gt; <span class="el_source">Hopital.java</span></div><h1>Hopital.java</h1><pre class="source lang-java linenums">package com.gestion.Hopitaux.model;
+import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+<span class="nc" id="L24">@AllArgsConstructor</span>
+<span class="fc" id="L25">@NoArgsConstructor</span>
+<span class="pc" id="L26">@Getter @Setter</span>
+@Entity
+@Table(name = &quot;hopitaux&quot;)
+public class Hopital implements Serializable {
+			
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = &quot;hopital_id&quot;)
+    public int id;
+	
+    @Column(name = &quot;nom&quot;,nullable = false, unique = true)
+	public String name;
+	
+    @Column(name = &quot;LitDisponible&quot;)
+	private int litDispo;
+   
+    private String ville;
+	
+    private String localite;
+	
+    private String region;
+	
+    private String status;
+		
+    private int litTotal;
+	
+    private int litReanimation;
+		   
+    @ManyToMany(cascade=CascadeType.MERGE, fetch = FetchType.LAZY)
+	@JoinTable(name=&quot;specialisations_hopitaux&quot;, 
+	joinColumns=@JoinColumn(name=&quot;specialisations_id&quot;), 
+	inverseJoinColumns = @JoinColumn(name=&quot;hopitaux_id&quot;)
+	  )	
+    
+<span class="pc" id="L60">	private Set&lt;Specialisation&gt; specialisations = new HashSet&lt;Specialisation&gt;();</span>
+	
+	@OneToMany
+	@JoinTable(name = &quot;reservationLit_hopital&quot;,
+    joinColumns = @JoinColumn(name = &quot;hopital_id&quot;),
+    inverseJoinColumns = @JoinColumn(name = &quot;reservation_id&quot;))		
+<span class="pc" id="L66">	private Set&lt;Reservation&gt; reservations = new HashSet&lt;Reservation&gt;();</span>
+    
+    		
+    // Getters and Setters 
+	 /*public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getLitDispo() {
+		return litDispo;
+	}
+
+	public void setLitDispo(int litDispo) {
+		this.litDispo = litDispo;
+	}
+
+	public String getVille() {
+		return ville;
+	}
+
+	public void setVille(String ville) {
+		this.ville = ville;
+	}
+
+	public String getLocalite() {
+		return localite;
+	}
+
+	public void setLocalite(String localite) {
+		this.localite = localite;
+	}
+
+	public String getRegion() {
+		return region;
+	}
+
+	public void setRegion(String region) {
+		this.region = region;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public int getLitTotal() {
+		return litTotal;
+	}
+
+	public void setLitTotal(int litTotal) {
+		this.litTotal = litTotal;
+	}
+
+	public int getLitReanimation() {
+		return litReanimation;
+	}
+
+	public void setLitReanimation(int litReanimation) {
+		this.litReanimation = litReanimation;
+	}
+
+	public Set&lt;Specialisation&gt; getSpecialisations() {
+		return specialisations;
+	}
+
+	public void setSpecialisations(Set&lt;Specialisation&gt; specialisations) {
+		this.specialisations = specialisations;
+	}
+			
+	public Set&lt;Reservation&gt; getReservations() {
+		return reservations;
+	}
+
+	public void setReservations(Set&lt;Reservation&gt; reservations) {
+		this.reservations = reservations;
+	}*/
+	/****************************************************************/
+	
+	//Add et Remove une spécialisation	
+			public void addSpecialisation(Specialisation specialisation) {
+<span class="fc" id="L161">				this.specialisations.add(specialisation);</span>
+<span class="fc" id="L162">			}</span>
+
+			public void removeSpecialisation(Specialisation specialisation) {
+<span class="nc" id="L165">				     this.specialisations.remove(specialisation);</span>
+<span class="nc" id="L166">			       }</span>
+			
+			//Add et Remove une reservation	
+			public void addReservation(Reservation reservation) {
+<span class="fc" id="L170">						this.reservations.add(reservation);</span>
+<span class="fc" id="L171">					}</span>
+
+			public void removeReservation(Reservation reservation) {
+<span class="nc" id="L174">						     this.reservations.add(reservation);</span>
+<span class="nc" id="L175">					 }	</span>
+	
+	/*
+	public Hopital() {}	*/	
+			
+	public Hopital(int id,String name, int litDispo, String ville, String localite,String region, int litTotal,
+			int litReanimation) {
+<span class="fc" id="L182">		super();</span>
+<span class="fc" id="L183">		this.id =id;</span>
+<span class="fc" id="L184">		this.name = name;</span>
+<span class="fc" id="L185">		this.litDispo = litDispo;</span>
+<span class="fc" id="L186">		this.region = region;</span>
+<span class="fc" id="L187">		this.ville = ville;</span>
+<span class="fc" id="L188">		this.localite = localite;				</span>
+<span class="fc" id="L189">		this.litTotal = litTotal;</span>
+<span class="fc" id="L190">		this.litReanimation = litReanimation;	</span>
+<span class="fc" id="L191">	}</span>
+	
+	public Hopital(String name, int litDispo, String ville, String localite,String region, Set&lt;Specialisation&gt; specialisations, int litTotal,
+			int litReanimation) {
+<span class="nc" id="L195">		super();	</span>
+<span class="nc" id="L196">		this.name = name;</span>
+<span class="nc" id="L197">		this.litDispo = litDispo;</span>
+<span class="nc" id="L198">		this.region = region;</span>
+<span class="nc" id="L199">		this.ville = ville;</span>
+<span class="nc" id="L200">		this.localite = localite;		</span>
+<span class="nc" id="L201">		this.specialisations = specialisations;</span>
+<span class="nc" id="L202">		this.litTotal = litTotal;</span>
+<span class="nc" id="L203">		this.litReanimation = litReanimation;	</span>
+<span class="nc" id="L204">	}</span>
+	
+	
+	public Hopital(int id,String name, int litDispo, String ville, String localite,String region, Set&lt;Specialisation&gt; specialisations, int litTotal,
+			int litReanimation) {
+<span class="nc" id="L209">		super();</span>
+<span class="nc" id="L210">		this.id= id;</span>
+<span class="nc" id="L211">		this.name = name;</span>
+<span class="nc" id="L212">		this.litDispo = litDispo;</span>
+<span class="nc" id="L213">		this.region = region;</span>
+<span class="nc" id="L214">		this.ville = ville;</span>
+<span class="nc" id="L215">		this.localite = localite;		</span>
+<span class="nc" id="L216">		this.specialisations = specialisations;</span>
+<span class="nc" id="L217">		this.litTotal = litTotal;</span>
+<span class="nc" id="L218">		this.litReanimation = litReanimation;	</span>
+<span class="nc" id="L219">	}</span>
+	
+	
+	public Hopital(String name, int litDispo, String ville, String localite,String region, int litTotal,
+			int litReanimation) {
+<span class="fc" id="L224">		super();</span>
+		
+<span class="fc" id="L226">		this.name = name;</span>
+<span class="fc" id="L227">		this.litDispo = litDispo;</span>
+<span class="fc" id="L228">		this.region = region;</span>
+<span class="fc" id="L229">		this.ville = ville;</span>
+<span class="fc" id="L230">		this.localite = localite;				</span>
+<span class="fc" id="L231">		this.litTotal = litTotal;</span>
+<span class="fc" id="L232">		this.litReanimation = litReanimation;	</span>
+<span class="fc" id="L233">	}</span>
+	
+	/*
+	public Hopital(String name, int litDispo, String ville, String localite,String region) {
+		super();	
+		this.name = name;
+		this.litDispo = litDispo;
+		this.region = region;
+		this.ville = ville;
+		this.localite = localite;		
+		
+	}*/
+		
+		
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

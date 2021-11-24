@@ -1,0 +1,17 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+hopitaux,com.gestion.Hopitaux.model,Reservation,61,70,0,0,3,25,10,10,10,10
+hopitaux,com.gestion.Hopitaux.model,Hopital,187,121,0,0,26,27,19,13,19,13
+hopitaux,com.gestion.Hopitaux.model,Accident.AccidentBuilder,98,0,0,0,1,0,10,0,10,0
+hopitaux,com.gestion.Hopitaux.model,Accident,38,63,0,0,4,15,10,8,10,8
+hopitaux,com.gestion.Hopitaux.model,Specialisation,19,39,0,0,2,10,5,6,5,6
+hopitaux,com.gestion.Hopitaux.service,ReservationServiceImpl,124,35,2,0,24,8,5,7,4,7
+hopitaux,com.gestion.Hopitaux.service,HopitalServiceImpl,47,13,0,0,11,3,8,3,8,3
+hopitaux,com.gestion.Hopitaux.service,AccidentServiceImpl,0,20,0,0,0,4,0,4,0,4
+hopitaux,com.gestion.Hopitaux.service,SpecialisationServiceImpl,18,23,0,0,4,6,2,5,2,5
+hopitaux,com.gestion.Hopitaux.helper,CtrlControl,35,8,8,2,7,4,9,2,4,2
+hopitaux,com.gestion.Hopitaux,HopitauxApplication,5,4,0,0,2,2,1,2,1,2
+hopitaux,com.gestion.Hopitaux.exception,Error,3,0,0,0,1,0,1,0,1,0
+hopitaux,com.gestion.Hopitaux.controller,AccidentController,10,12,2,0,3,3,2,3,1,3
+hopitaux,com.gestion.Hopitaux.controller,HopitalController,56,31,7,1,12,8,11,5,7,5
+hopitaux,com.gestion.Hopitaux.controller,SpecialisationController,41,17,7,1,10,5,8,3,4,3
+hopitaux,com.gestion.Hopitaux.controller,ReservationController,32,27,4,0,7,6,5,6,3,6

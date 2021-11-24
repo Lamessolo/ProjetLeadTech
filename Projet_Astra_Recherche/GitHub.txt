@@ -1,0 +1,19 @@
+UserName : julesmessolo@gmail.com
+Mdp : 46_GdbGit77git
+
+Verification des parametres :  git config --list
+
+C:\Users\MaleaJoycie\Documents\OpenClass_Projets\ProjetGit
+
+Repository : https://github.com/Lamessolo/LamessRepo.git
+https://github.com/Lamessolo/OpenClassRoomProjets.git
+
+pour pointer vers le depot distant : git remote
+pour récuperer le projet distant : git clone https:github....
+https://github.com/OpenClassrooms-Student-Center/ProjetOpenSource.gitgithub
+
+Pour créer une branche : git branch "Cagnotte"
+pour basculer sur cette branch: git checkout cagnotte
+Le SHA, c'est ce grand code qui vous permettra de revenir à un commit exact. C'est l’identifiant de votre action !
+
+Pour supprimer un branch creer : git branch -d branchName

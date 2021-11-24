@@ -1,0 +1,16 @@
+Lien vers le repository de l'API 
+
+Clone avec SSH: 
+ git@gitlab.com:Lamessolo/poc-reservation.git
+
+Clone avec Https:
+https://gitlab.com/Lamessolo/poc-reservation.git
+
+/*****************************************/
+
+Lien pour l'application front Angular 
+ Clone avec Https: 
+https://gitlab.com/Lamessolo/front-poc-reservation.git
+
+Clone avec SSH: 
+ git@gitlab.com:Lamessolo/front-poc-reservation.git

@@ -1,0 +1,63 @@
+vous pouvez prendre en compte les 4 dimensions de gouvernance, de conception, de vérification et d’opération.
+
+La gouvernance se concentre sur les processus et les activités liés à la gestion globale de la sécurité par l’entreprise dans le domaine du développement informatique. 
+
+La phase de construction s’intéresse aux processus et aux activités liés à la façon dont une organisation définit des objectifs et crée des logiciels dans ses projets de développement. En général, vous y trouverez le management des produits, la collecte des exigences, les spécifications d'architecture de haut niveau, la conception détaillée et la mise en œuvre.
+
+
+La phase de vérification s’attache à décrire les activités de vérification et de tests mises en place dans l’entreprise. 
+
+Enfin, la phase opérationnelle comprend les activités liées à la gestion des déploiements des applications de l’entreprise.
+
+/***********Pratiques de sécurité en gouvernance***************/
+
+L’objectif est de définir des objectifs de sécurité qui soient à la fois mesurables et en adéquation avec les risques métiers réels de l’entreprise.
+
+Enfin, les bonnes pratiques en formation se concentrent sur la mise en place pour les acteurs impliqués dans le développement logiciel
+
+Par exemple, on peut mettre en place des parcours de formation continue sur les bonnes pratiques en développement vues plus tôt, ou bien construire un ensemble de règles techniques à destination des architectes.
+
+/***********Pratiques de sécurité en construction***************/
+
+Cette phase s’intéresse aux processus et aux activités liés à la façon dont une organisation définit des objectifs et crée des logiciels dans ses projets de développement. 
+
+1Évaluation des menaces
+2 Exigences de sécurité
+Également, les bonnes pratiques en architecture sécurisée consistent à insérer dans les règles de développement l’utilisation de framework reconnus pour leur robustesse ou d’établir des architectures et des plateformes de référence
+
+/***********Pratiques de sécurité en Verification***************/
+Les étapes de vérification visent à s’assurer que les vérifications et tests dans le domaine de la sécurité sont bien pris en compte et mis en œuvre.
+1 La revue de conception: se concentre sur l’évaluation de l’architecture et de la conception des applications au regard des failles de sécurité.Elle permet de détecter les problèmes architecturaux de haut niveau assez tôt dans le cycle de développement.
+2 La revue d’implémentation vise à inspecter le code des logiciels et leur configuration pour y trouver des vulnérabilités. Les sociétés peuvent se baser sur de simples check lists ou bien utiliser des logiciels dédiés.
+3 les tests de sécurité cherchent à conduire une analyse du logiciel dans son environnement d’exécution pour y trouver des problèmes de sécurité.
+De simples tests de pénétration et des tests de haut niveau basés sur les fonctionnalités du logiciel peuvent être mis en œuvre
+
+/***********Pratiques de sécurité en fonctionnement operationnel***************/
+
+ regroupe les éléments relatifs à la manière dont l’entreprise gère les déploiements de logiciels une fois créés
+1 Gestion des incidents et pannes
+Tout d’abord, la gestion des incidents de sécurité et des pannes doit être implémentée pour y apporter une réponse uniforme et cohérente.
+elle peut mettre en place un système de retour d’expérience basé sur l’analyse de données collectées lors d’incidents.
+
+2 la phase de consolidation de l’environnement d’exécution a pour objectif d’analyser l’infrastructure qui héberge les logiciels de l’entreprise.
+Une première approche consiste à installer les mises à jour de sécurité préconisées par les constructeurs.
+
+Communication aux utilisateurs finaux
+
+
+
+Les mécanismes de manipulation de données non fiables ;
+Toutes données dynamiques, quelle que soit leur provenance, doivent être considérées comme non fiables.
+les injections côté serveur: 
+*****Attaque par injection de commande
+Pour se prémunir de ce genre de désagrément, on ne doit jamais faire confiance à ce que l’utilisateur envoie comme données
+******Attaque par injection SQL
+ une injection SQL, vous comprenez pourquoi cette dernière est considérée comme une des failles de sécurité les plus répandues du Web.
+ et les injections côté client.
+
+Gardez en mémoire que 80 % des failles des applications web sont dues à une faille XSS.
+Les enjeux de la protection des données ;
+
+Le traitement sécurisé des bases de données ;
+
+La gestion des erreurs et des journaux d'historisation.

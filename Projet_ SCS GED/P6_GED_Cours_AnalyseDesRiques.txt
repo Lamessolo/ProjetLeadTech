@@ -1,0 +1,126 @@
+
+Un projet se déroule généralement en 5 étapes :
+La formalisation du besoin.
+L’étude de faisabilité.
+La conception.
+La réalisation.
+La finalisation.
+
+
+Une analyse des risques vous aidera à multiplier vos chances de réussite ;
+l’analyse des risques se fait en début de projet, à l’étape de l’étude de faisabilité, et a des impacts sur tout le cycle projet.
+
+Un risque, c’est une possibilité qui pourra disparaître avec le temps, ou devenir un problème qu’il faudra alors résoudre pour atteindre les objectifs du projet.
+Le chef de projet avisé veillera donc à identifier les risques afin de limiter leurs impacts possibles.
+
+La norme NFX50-117 (Management de projet – Gestion du risque – Management des risques d'un projet) distingue imprévu, aléa, risque et problème. Précisons un peu ces notions.
+
+Un IMPREVU est un événement futur possible, non identifiable.
+Un ALEA est un événement futur possible, identifiable, mais que vous ne pouvez pas quantifier.
+Un RISQUE, c’est un événement futur possible, identifiable et que vous pouvez quantifier.
+Un PROBLEME, ce n’est plus un risque. C’est un événement dommageable qui s’est déjà réalisé.
+
+on peut quantifier les conséquences d’un risque sur un projet ; 
+la gestion des risques ne concerne que les risques opérationnels, elle exclut les risques stratégiques liés au résultat du projet.
+
+La GESTION DE RISQUE se décompose en 5 étapes :
+- CONNAISSANCE DU PROJET : Utiliser la description du projet, La connaissance et la bonne compréhension du projet sont fondamentales pour produire une analyse des risques de qualité.Beaucoup des risques que vous allez détecter seront liés à cet environnement et aux parties prenantes que vous aurez identifiées.Pour le moment, gardez en tête que sans description projet, il n’y a pas d’analyse des risques « sérieuse » possible.
+
+IDENTIFIER LES RISQUES:
+
+les risques génériques (cout qualité delai), Les risques spécifiques
+PRIORISER LES RISQUES:
+Priorisation des risques : les évaluer, considérer leurs impacts possibles sur le projet, et ensuite les prioriser. Tous les risques ne se valent pas.
+PREVENIR LES RISQUES:
+un plan de prévention. Vous y indiquerez l’ensemble des parades que vous aurez imaginées afin de prévenir les risques identifiés
+Stratégie de prévention : définir des parades pour les limiter. 
+Suivi des risques : surtout, vous suivrez leur évolution tout au long du projet. 
+
+
+Utilisez le QQOQCCP pour décrire le projet sous tous les angles
+le QQOQCCP offre une vision complète des éléments clés du projet, et sera un socle utile pour la définition des risques génériques
+Quoi? Qui?(PartiePrenante)  Ou? Quand?  Comment? Combien?   Pourquoi?
+Une des façons de présenter les objectifs du projet est de construire un arbre à objectifs.
+On commence par définir l’objectif général du projet ==> objectifs secondaire ==> objectifs opérationnelles
+
+L’arbre à objectifs fournira des indices essentiellement sur les risques spécifiques à votre projet. 
+ Le PERIMETRE FONCTIONNEL, lui, permet d’appréhender la dimension du projet et les réalisations concrètes à réaliser ;
+    -la VOLUMETRIE des écrans que vous envisagez sur ce projet (Nbr des écrans):combien de types d’écrans nous devrons réaliser, ce qui est utile pour estimer les charges en conception fonctionnelle
+    -Les fonctionnalités identifiées: quelles seront les fonctionnalités à développer et donc la charge en développement, en tenant compte de la complexité de réalisation.
+
+Dernier élément qui pourra alimenter votre analyse des risques : le tableau SWOT.  Il doit être orienté projet pour être exploitable ici.
+Le SWOT projet met l’accent sur l’environnement du projet.
+le SWOT projet apporte des informations utiles sur le contexte global du projet 
+
+Vous pouvez détecter la plus grande partie des risques d’un projet en étudiant les 7 dimensions « génériques » : le périmètre, le budget, le temps, l’équipe, les décisions, la complexité et l’innovation ;
+
+Dimension 1 : PERIMETRE DU PROJET Le périmètre projet a-t-il été établi avec une précision suffisante ?
+Le volume du projet est-il important ?
+Le projet aborde-t-il plusieurs domaines, implique-t-il plusieurs réalisations différentes ?
+
+Dimension 2 : BUDGET - COUT
+Le budget est-il défini avec précision ?
+Le budget tient-il compte de l’effort de pilotage ?
+Le budget est-il cohérent avec les charges identifiées ?
+Le budget est-il validé ?
+
+Dimension 3 : TEMPS - DELAI
+Un planning (même macro) prévisionnel a-t-il été établi ?
+Des échéances impératives existent-elles ?
+Le temps disponible est-il cohérent avec le périmètre du projet ?
+La période de réalisation du projet contient-elle des dates où on ne pourra pas travailler au projet ?
+
+Dimension 4 : ÉQUIPE 
+ On vérifiera ici que le projet pourra se dérouler sans frein lié aux validations nécessaires en cours de projet.
+Les compétences nécessaires à la réalisation sont-elles disponibles ?
+Dispose-t-on de ces compétences en interne, ou sont-elles apportées via de la sous-traitance ?
+Les ressources nécessaires à la réalisation du projet sont-elles mobilisées ?
+Le commanditaire dispose-t-il des compétences requises pour mener à bien le projet ?
+Le commanditaire dispose-t-il des ressources nécessaires au suivi du projet ?
+
+Dimension 5 : PRISE DE DECISION
+Une gouvernance projet a-t-elle été établie ?
+Les décideurs seront-ils disponibles pendant le déroulement du projet ?
+Les décisionnaires sont-ils identifiés ?
+La responsabilité des décisions est-elle établie ?
+Existe-t-il une chaîne de validation avec de nombreux maillons ?
+
+Dimension 6 : COMPLEXITE
+Le projet doit-il répondre à des problématiques de sécurité élevées ?
+La réalisation devra-t-elle interagir avec un ou plusieurs systèmes externes ?
+Les équipes de réalisation ont-elles identifié un niveau de complexité élevé pour un ou plusieurs aspects du projet (orienté parcours/interactions) ?
+Les équipes de réalisation ont-elles identifié un niveau de complexité élevé pour un ou plusieurs aspects du projet (orienté technologies) ?
+L’environnement dans lequel la réalisation devra être livrée est-il maîtrisé ?
+
+Dimension 7 : DEGRE D'INNOVATION
+Avez-vous déjà mené un projet conduisant à une réalisation similaire ?
+Des références existantes ont-elles été identifiées ?
+Des ressources documentaires sur les technologies employées sont-elles disponibles ?
+Le projet propose-t-il des fonctionnalités réellement innovantes ?
+Envisagez-vous la réalisation d’interfaces inédites ?
+Une étude de faisabilité a-t-elle été conduite ?
+
+Les risques spécifiques ne doivent pas recouper les risques génériques
+L’ORIGINE du risque
+Précisez la situation, le contexte particulier de votre projet qui est sujet à l’apparition possible d’un problème
+Le DECLENCHEUR
+Vous identifierez ici l’événement, les conditions particulières (une combinaison, par exemple) qui pourraient faire en sorte que le risque devienne un problème avéré.
+Les CONSEQUENCES du risque
+
+PRIORISER LES RISQUES identifiés est indispensable pour tracer les contours de votre stratégie de prévention.
+Classez les risques : la matrice de criticité
+les risques peuvent être hiérarchisés selon leur criticité ;
+Criticité = PROBABILITE X Gravité X Indéterminabilité
+la FREQUENCE est équivalente à la probabilité que nous avons définie plus haut ;
+la GRAVITE, de la même façon, représente l’impact potentiel ;
+l’INDETERMINABILITE permet de tenir compte de la probabilité de ne pas détecter l’incident transformant le risque en problème. 
+En effet, plus un incident sera détectable rapidement, plus on peut supposer pouvoir limiter les incidences sur le projet.
+
+les risques perturbateurs sont des problèmes à résoudre ;
+les risques négligeables ou de gravité seront ignorés ;
+les risques intolérables peuvent conduire à l’annulation du projet ;
+
+
+
+
+

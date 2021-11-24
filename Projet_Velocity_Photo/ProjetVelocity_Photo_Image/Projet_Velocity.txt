@@ -1,0 +1,8 @@
+Google Docs Cucumber, Concordion, FitNesse, SpecFlow et Pickles.
+
+Communiquer les guidelines du scope fonctionnel d'un projet aux parties prenantes
+
+
+
+
+Extraire les besoins d'un projet

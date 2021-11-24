@@ -1,0 +1,113 @@
+Scrum est un framework qui repose sur trois piliers fondamentaux:
+TRANSPARENCE, INSPECTION, ADAPTATION
+
+Le modèle Scrum est un schéma d’organisation 
+EMPIRIQUE:l'observation de faits mesurables.
+, HOLISTIQUE: la valeur totale du produit ou du service sera toujours supérieure à la somme de ces divisions.
+, ITERATIF: découper le projet en plusieurs cycles identiques ou itérations
+, INCREMENTAL :La partie du projet que votre équipe a réalisée doit être utilisable. Vous pouvez donc livrer votre client régulièrement avec des fonctionnalités complètes.
+  AGILE: Vous choisissez toujours des méthodes pragmatiques et adaptatives pour être plus réactif aux demandes.
+
+Parler de "méthodologie Scrum" est un abus de langage. C'est plutôt un modèle de gestion pour des projets très imprévisibles.
+Scrum est un modèle complet pour gérer des projets imprévisibles et complexes : il est à la fois empirique, holistique, itératif, incrémental et agile
+
+PRODUCT OWNER( "Proprietaire du produit") Peut modifier la liste des fonctionnalités
+Le client peut rencontrer plusieurs difficultés :
+Manque de disponibilité pour le projet
+Manque d'expérience en gestion de projet agile
+Manque d'informations sur les utilisateurs
+
+Le product owner est le représentant du client
+L'expression des besoins avec l’équipe
+La priorisation des besoins pour l'équipe
+La validation des résultats de l'équipe
+
+USER STORIES : vous décrivez précisément une fonctionnalité du produit
+Le product backlog est une liste ordonnée de tout ce qui pourrait être requis dans le produit
+ Le Product Owner priorise les user stories formulées, 
+est l'unique responsable de l'actualisation,
+surveille le budget et le planning a l'aide du Product Backlog
+
+Equipe de Développement : Ses membres ont de multiples compétences.
+Ses membres sont pluridisciplinaires.
+Ses membres sont autonomes.
+
+SCRUM MASTER:
+Vous êtes responsable de la compréhension, de l'adhésion et de la mise en œuvre du modèle Scrum
+Vous facilitez l'intégration du modèle Scrum
+Vous n'avez pas de mission technique ou opérationnelle
+l'empathie, la bienveillance et l'humour
+
+(le modèle de Bruce Tuckman)
+
+L'itération ou sprint est une boîte de temps d'une à quatre semaines Maximun, la période au cours de laquelle une fonctionnalité complète du produit sera développée et incrémentée.
+
+La décision de terminer un sprint ne peut être prise que par le product owner
+
+Additionnez les story points des user stories terminées au cours d'une itération. C'est ce total qui est appelé vélocité en gestion de projet agile.
+
+En qualité de scrum master, vous aidez le product owner à prioriser le product backlog
+Votre sprint est une boîte de temps de 1 à 4 semaines dans laquelle l'équipe développe une ou plusieurs fonctionnalités du projet.
+
+En qualité de scrum master, vous analysez la gestion du projet à partir d'une répétition de périodes bien identiques.
+Estimez en story points la complexité des user stories et la vélocité de votre équipe
+Les notions d'itération et d’incrément sont indissociables dans le modèle Scrum.
+
+L'INCREMENT correspond bien au résultat opérationnel de votre sprint. C'est une version intermédiaire du produit final.
+Votre équipe de développement réalise à échéances régulières des éléments fonctionnels et utilisables
+
+L'intégration continue et les livraisons fréquentes sont des pratiques agiles très efficaces. Diminuez les risques d'erreurs dans votre planification
+
+En qualité de scrum master, vous vérifiez que les incréments correspondent bien à des fonctionnalités terminées pendant les sprints.
+
+La réunion de planification d'un sprint se divise en deux parties, le périmètre et le plan de l'itération 
+La première partie est sous le contrôle du product owner qui définit les objectifs et les responsabilités de l’équipe.
+
+La seconde partie est dirigée par l’équipe de développement qui cherche les meilleures solutions.
+Sprint Backlog : correspond à tout le périmètre qui doit être produit au cours du prochain sprint,
+classe toujours les user stories selon un ordre de priorité. 
+
+La presparation des USER STORIE:
+La collecte et l'étude des besoins du produit ou service.
+La définition d'un langage commun avec l'équipe.
+
+En gestion de projet agile, le product backlog n'est jamais figé. Ce n'est ni un cahier des charges ni un contrat
+Vous jugez une user story avec la grille de critères INVEST
+INDEPENDANTE, NEGOCIABLE, VERTICALE, EVALUEE, SMALL, TESTABLE
+
+comment considérer ensemble qu'une activité est terminée
+ les critères d’acceptation de vos user stories. 
+Je recommande l'utilisation de la matrice Given-When-Then (language Gherkin) pour formuler correctement les tests de vos user stories
+considère une user story comme l'association de 3 notions :
+Le carton, la conversation, la confirmation
+Demonstration de fin de sprint : Qu'avons nous développé?
+Structurez la planification des livrables avec la pratique agile du story mapping (avec Feature map, Carboard ou Prezi).
+Le product backlog est un document qui évolue constamment pendant le développement du projet de votre client. Contrairement à un cahier des charges, cet artefact Scrum n'est jamais définitif.
+
+Votre product backlog grooming doit rendre possible l'affinage des user stories.
+
+LE LEAN comme une théorie de gestion de la production qui a fortement influencé les modèles agiles (voir niko-niko, tableau kanban et burndow chart).Le Lean se concentre sur la recherche de la performance : productivité, qualité, délais, et coûts
+Cette théorie insiste sur l'amélioration continue et l'élimination des gaspillages
+
+Le burndown chart est la vision graphique du “reste à faire” que je vous préconise en développement agile. 
+vous utilisez le burndown chart pour calculer la vélocité de votre équipe et livrer votre client régulièremen
+Estimez collectivement la complexité des user stories avec votre planning poker
+La construction structurée de votre projet
+
+L’automatisation de vos développements 
+
+La Methode RAD( Rapide Application Developpement) Elle structure le cycle de vie d’un projet en 5 phases 
+L'INITIALISATION
+LE CADRAGE
+LE DESIGN
+LA CONSTRUCTION
+LA FINALISATION
+
+Voici les conditions préalables de l’intégration continue :
+Le code source est largement partagé (logiciels de gestion des versions).
+Les développeurs intègrent quotidiennement leurs modifications.
+Les tests d’intégration sont en partie automatisés (outils dédiés pour chaque langage).
+
+
+L’ASD est une évolution de la méthode RAD:
+L’intégration continue et la méthode ASD permettent d’industrialiser la production du code informatique pendant le développement.

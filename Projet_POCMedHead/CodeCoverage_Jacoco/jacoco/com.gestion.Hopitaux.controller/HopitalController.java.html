@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>HopitalController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">hopitaux</a> &gt; <a href="index.source.html" class="el_package">com.gestion.Hopitaux.controller</a> &gt; <span class="el_source">HopitalController.java</span></div><h1>HopitalController.java</h1><pre class="source lang-java linenums">package com.gestion.Hopitaux.controller;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.gestion.Hopitaux.helper.CtrlControl;
+import com.gestion.Hopitaux.model.Hopital;
+import com.gestion.Hopitaux.service.Interface.IHopitalService;
+import com.gestion.Hopitaux.service.Interface.ISpecialisationService;
+
+
+@RestController
+@RequestMapping(&quot;/api&quot;)
+<span class="fc" id="L25">public class HopitalController {</span>
+
+	@Autowired
+	private IHopitalService serviceHopital;
+	
+	@Autowired 
+	private ISpecialisationService serviceSpecialisation;
+	
+	@CrossOrigin(&quot;*&quot;)
+	@GetMapping(&quot;/hopitals&quot;)
+	@ResponseStatus(code=HttpStatus.OK)
+	public List&lt;Hopital&gt; findAll(){
+<span class="fc" id="L37">	 serviceHopital.findAll();</span>
+<span class="fc" id="L38">		 return serviceHopital.findAll();		</span>
+           }
+	
+	@CrossOrigin(&quot;*&quot;)
+	@GetMapping(&quot;/hopitals/{id}&quot;)
+	@ResponseStatus(code=HttpStatus.OK)
+	public Hopital findById(@PathVariable(&quot;id&quot;)int id) {					
+<span class="fc" id="L45">		Hopital	response = serviceHopital.findById(id);	</span>
+<span class="pc bpc" id="L46" title="1 of 2 branches missed.">		if(CtrlControl.NotFoundHopital(response)==null);		</span>
+<span class="fc" id="L47">		return response;</span>
+	}
+	
+	@CrossOrigin(&quot;*&quot;)
+	@PostMapping(&quot;/hopitals/new&quot;)
+	//@ResponseStatus(code=HttpStatus.CREATED)
+	public Hopital createHopital (@RequestBody Hopital hopital) {		
+<span class="fc" id="L54">		return serviceHopital.create(hopital);</span>
+	}
+	
+	
+	public Hopital formUpdateHopital (@PathVariable(&quot;id&quot;) int id) {						
+<span class="nc" id="L59">		return serviceHopital.findById(id);</span>
+	}
+	
+	
+	
+	@CrossOrigin(&quot;*&quot;)
+	@PutMapping(&quot;/hopitals/{id}&quot;)
+	@ResponseStatus(code=HttpStatus.OK)
+	public void updateHopital (@PathVariable(&quot;id&quot;) int id, @RequestBody Hopital hopital) {			
+<span class="nc bnc" id="L68" title="All 2 branches missed.">		if(CtrlControl.NotFoundHopital(serviceHopital.findById(id))==null)	</span>
+<span class="nc" id="L69">		 serviceHopital.update(id,hopital);</span>
+<span class="nc" id="L70">	}</span>
+	
+	@CrossOrigin(&quot;*&quot;)
+	@DeleteMapping(&quot;/hopitals/{id}&quot;)
+	@ResponseStatus(code=HttpStatus.OK)
+	public void deleteHopital(@PathVariable(&quot;id&quot;) int id) {
+		//if(CtrlControl.NotFoundHopital(serviceHopital.findById(id))==null)
+<span class="nc" id="L77">		serviceHopital.delete(id);</span>
+<span class="nc" id="L78">	}</span>
+	
+	@CrossOrigin(&quot;*&quot;)
+	@GetMapping(&quot;/hopitals/localite/{ville}&quot;)
+	@ResponseStatus(code=HttpStatus.OK)
+	public List&lt;Hopital&gt; findByVilleOrLocalite (@PathVariable(&quot;ville&quot;)String ville) {
+<span class="fc" id="L84">		return serviceHopital.findByVilleOrLocalite(ville);</span>
+		
+	}
+	
+	@CrossOrigin(&quot;*&quot;)
+	@GetMapping(&quot;/hopitals/specialisationName/{specialisation}&quot;)
+	@ResponseStatus(code=HttpStatus.OK)
+	public List&lt;Hopital&gt; findBySpecialisationName (@PathVariable(&quot;specialisation&quot;)String specialisation) {
+<span class="nc" id="L92">		return serviceHopital.findBySpecialisation(specialisation);</span>
+	}
+	
+	//Filter les hopitaux par l'id de la specialisation
+	@CrossOrigin(&quot;*&quot;)
+	@GetMapping(&quot;/hopitals/specialisationId/{id}&quot;)
+	@ResponseStatus(code=HttpStatus.OK)
+	public List&lt;Hopital&gt; findBySpecialisationId (@PathVariable(&quot;id&quot;)int id) {
+<span class="nc bnc" id="L100" title="All 2 branches missed.">		if(CtrlControl.NoFoundObject(serviceSpecialisation.findById(id))==null);</span>
+<span class="nc" id="L101">		return serviceHopital.findBySpecialisationId(id);</span>
+	}
+	
+	// Filter les hopitaux par la ville et l'Id de la specialisation
+	@CrossOrigin(&quot;*&quot;)
+	@GetMapping(&quot;/hopitals/localite/{ville}/{id}&quot;)
+	@ResponseStatus(code=HttpStatus.OK)
+	public List&lt;Hopital&gt; findByVilleAndSpecialisationId (@PathVariable(&quot;ville&quot;)String ville,@PathVariable(&quot;id&quot;)int id) {
+<span class="nc bnc" id="L109" title="All 2 branches missed.">		if(CtrlControl.NoFoundObject(serviceSpecialisation.findById(id))==null);</span>
+<span class="nc" id="L110">		return serviceHopital.findByVilleAndSpecialisationId(id,ville);</span>
+	}
+	
+	//Filter les hopitaux par ville et le nom de la specialisation
+	@CrossOrigin(&quot;*&quot;)
+	@GetMapping(&quot;/hopitals/{ville}/{specialisation}&quot;)
+	@ResponseStatus(code=HttpStatus.OK)
+	public List&lt;Hopital&gt; findByVilleAndSpecialisationName (@PathVariable(&quot;ville&quot;)String ville,@PathVariable(&quot;specialisation&quot;)String specialisation) {	
+		
+<span class="nc" id="L119">		return serviceHopital.findByVilleAndSpecialisationName(specialisation,ville);</span>
+	}
+	
+	
+	
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

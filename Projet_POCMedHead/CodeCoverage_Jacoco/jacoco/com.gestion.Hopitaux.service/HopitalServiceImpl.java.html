@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>HopitalServiceImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">hopitaux</a> &gt; <a href="index.source.html" class="el_package">com.gestion.Hopitaux.service</a> &gt; <span class="el_source">HopitalServiceImpl.java</span></div><h1>HopitalServiceImpl.java</h1><pre class="source lang-java linenums">package com.gestion.Hopitaux.service;
+
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.gestion.Hopitaux.model.Hopital;
+import com.gestion.Hopitaux.repository.HopitalRepository;
+import com.gestion.Hopitaux.service.Interface.IHopitalService;
+
+@Service
+<span class="fc" id="L11">public class HopitalServiceImpl implements IHopitalService {</span>
+
+	
+	@Autowired
+	private HopitalRepository repoHopital;
+	
+	@Override
+	public List&lt;Hopital&gt; findAll() {			
+<span class="fc" id="L19">		return repoHopital.findAll();</span>
+	}
+
+	@Override
+	public Hopital findById(int id) {
+		
+		//return repoHopital.findById(id).get();
+<span class="nc" id="L26">		return repoHopital.findHopitalById(id);</span>
+	}
+
+	@Override
+	public Hopital create(Hopital hopital) {		
+<span class="fc" id="L31">	return repoHopital.save(hopital);</span>
+		 
+	}
+
+	@Override
+	public void update(int id, Hopital hopital) {
+<span class="nc" id="L37">		hopital.setId(id);		</span>
+<span class="nc" id="L38">		repoHopital.save(hopital);</span>
+		
+<span class="nc" id="L40">	}</span>
+	@Override
+	public void delete(int id) {
+<span class="nc" id="L43">		repoHopital.deleteById(id);		</span>
+<span class="nc" id="L44">	}</span>
+
+	@Override
+	public List&lt;Hopital&gt; findByVilleOrLocalite(String motcle) {		
+<span class="nc" id="L48">		return repoHopital.findByVilleOrLocalite(motcle);</span>
+	}
+
+	@Override
+	public List&lt;Hopital&gt; findByVilleAndSpecialisationId(int specialisation, String ville) {
+<span class="nc" id="L53">		return repoHopital.findHopitalByVilleAndSpecialisationId(specialisation, ville);		 </span>
+	}
+
+	@Override
+	public List&lt;Hopital&gt; findByVilleAndSpecialisationName(String specialisation, String ville) {		
+<span class="nc" id="L58">		return repoHopital.findHopitalByVilleAndSpecialisationName(specialisation, ville);							</span>
+	}
+
+	@Override
+	public List&lt;Hopital&gt; findBySpecialisation(String specialisation) {		
+<span class="nc" id="L63">		return repoHopital.findBySpecialisationName(specialisation);</span>
+	}
+	
+	
+	@Override
+	public List&lt;Hopital&gt; findBySpecialisationId(int specialisation) {		
+<span class="nc" id="L69">		return repoHopital.findBySpecialisationId(specialisation);</span>
+	}
+	
+	
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

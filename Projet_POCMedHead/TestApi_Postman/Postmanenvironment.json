@@ -1,0 +1,34 @@
+{
+	"id": "02ad35d5-7b34-4a80-afe4-369cbe02c10a",
+	"name": "Environement Test Reservation",
+	"values": [
+		{
+			"key": "maVariableLocalite",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "BaseUrlApi",
+			"value": "http://localhost:8080/api",
+			"enabled": true
+		},
+		{
+			"key": "idHopital",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "maVariableLocalite",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "maVariableSpecialisation",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-10-14T20:09:18.265Z",
+	"_postman_exported_using": "Postman/8.12.1"
+}

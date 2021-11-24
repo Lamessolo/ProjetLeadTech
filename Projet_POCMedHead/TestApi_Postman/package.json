@@ -1,0 +1,12 @@
+{
+  "name": "Postman-Test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run Postmancollection.json -e Postmanenvironment.json   -r cli,json,junit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

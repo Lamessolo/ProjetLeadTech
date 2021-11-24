@@ -1,0 +1,621 @@
+{
+	"info": {
+		"_postman_id": "0f76bf93-262c-4b5e-a33e-169bdb3bf9b8",
+		"name": "HopitalReservation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Hopital Liste",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const hopitalList=pm.response.json();\r",
+							"const MafonctionTestStatusCode = () =>{\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"}\r",
+							"pm.test(\"doit avoir le status 200\",MafonctionTestStatusCode);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrlApi}}/hopitals",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"hopitals"
+					]
+				},
+				"description": "GET hopital"
+			},
+			"response": []
+		},
+		{
+			"name": "Hopital by Id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"const hopital=pm.response.json();\r",
+							"const MafonctionTestStatusCode = () =>{\r",
+							"    pm.response.to.have.status(200);}\r",
+							"pm.test(\"doit avoir le status 200\",MafonctionTestStatusCode);\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrlApi}}/hopitals/104",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"hopitals",
+						"104"
+					]
+				},
+				"description": "GET Hopital by Id"
+			},
+			"response": []
+		},
+		{
+			"name": "Create un Hopital",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const hopitalIdCreation = pm.response.json();\r",
+							"const MafonctionTestStatusCode = () =>{\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"}\r",
+							"pm.test(\"doit avoir le status 200\",MafonctionTestStatusCode);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{     \r\n    \"name\": \"La Moisseenne AP-HP\",\r\n    \"litDispo\": 8,\r\n    \"ville\": \"Moissy-Cramayel\",\r\n    \"localite\": \"Seine-et-marne\",\r\n    \"region\": \"ile-de-france\",\r\n    \"status\": \"Normal\",\r\n    \"litTotal\": 55,\r\n    \"litReanimation\": 3,\r\n    \"specialisations\":[{\"id\": 1\r\n    },{\"id\":4}]  \r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrlApi}}/hopitals/new",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"hopitals",
+						"new"
+					]
+				},
+				"description": "POST hopital"
+			},
+			"response": []
+		},
+		{
+			"name": "Update un hopital existant",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const MafonctionTestStatusCode = () =>{\r",
+							"    pm.response.to.have.status(200);\r",
+							"}\r",
+							"pm.test(\"doit avoir le status 200\",MafonctionTestStatusCode);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":10,\"name\":\"Hôpital Albert Chenevier AP-HP\",\"litDispo\":22,\"ville\":\"Chenneviere\",\"localite\":\"Val-de-marne\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrlApi}}/hopitals/104",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"hopitals",
+						"104"
+					]
+				},
+				"description": "PUT modifier un Hopital"
+			},
+			"response": []
+		},
+		{
+			"name": "supprimer un hopital existant",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrlApi}}/hopitals/345",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"hopitals",
+						"345"
+					]
+				},
+				"description": "DELETE hopital"
+			},
+			"response": []
+		},
+		{
+			"name": "Lister les hopitauxd'une localite",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const hopitalList=pm.response.json();\r",
+							"const MafonctionTestStatusCode = () =>{\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"}\r",
+							"pm.test(\"doit avoir le status 200\",MafonctionTestStatusCode);\r",
+							"pm.test('Should be hopital not null',() => {   \r",
+							"    pm.expect(hopitalList).be.not.null;\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrlApi}}/hopitals/localite/{{maVariableLocalite}}",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"hopitals",
+						"localite",
+						"{{maVariableLocalite}}"
+					]
+				},
+				"description": "GET specialisation pour l'hopital dont l'id est...."
+			},
+			"response": []
+		},
+		{
+			"name": "get une specialisation par son Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrlApi}}/specialisations/1",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"specialisations",
+						"1"
+					]
+				},
+				"description": "Recupere la specialisation par son Id"
+			},
+			"response": []
+		},
+		{
+			"name": "filtrer avec deux criteres localite et specialisation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrlApi}}/hopitals/Paris/orth",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"hopitals",
+						"Paris",
+						"orth"
+					]
+				},
+				"description": "Lister avec deux criteres (localite et specialisations)"
+			},
+			"response": []
+		},
+		{
+			"name": "Filtrer les hopitaux par specialisation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrlApi}}/hopitals/specialisationName/A",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"hopitals",
+						"specialisationName",
+						"A"
+					]
+				},
+				"description": "filtrer avec un critere (la specialisation)"
+			},
+			"response": []
+		},
+		{
+			"name": "Lister les toutes les  reservations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/reservations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"reservations"
+					]
+				},
+				"description": "GET Reservations FindAll"
+			},
+			"response": []
+		},
+		{
+			"name": "Lister les reservations d'un hopital (id)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrlApi}}/reservations/hopital/1",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"reservations",
+						"hopital",
+						"1"
+					]
+				},
+				"description": "GET Lister les reservations d'un hopital id donné"
+			},
+			"response": []
+		},
+		{
+			"name": "Creer une reservation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {         \r\n        \"date\": \"2020-01-11\",\r\n        \"emetteurName\": \"Tyson FURY\",\r\n        \"hopitalDestination\": \"TestReservation\",\r\n        \"nbrLitReservation\": 1,\r\n        \"details\": \"Bagarre UFC\",\r\n        \"status\": \"Urgent\",\r\n        \"hopitalId\": 23 \r\n        \r\n   }\r\n          ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrlApi}}/reservations/new",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"reservations",
+						"new"
+					]
+				},
+				"description": "POST Creer une reservation"
+			},
+			"response": []
+		},
+		{
+			"name": "rechercher une reservation par Motcle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrlApi}}/reservations/motcle/Valid",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"reservations",
+						"motcle",
+						"Valid"
+					]
+				},
+				"description": "GET reservation By MotCle"
+			},
+			"response": []
+		},
+		{
+			"name": "Recupere le nom de l'hopital de la reservation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrlApi}}/reservations/31/hopitalName",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"reservations",
+						"31",
+						"hopitalName"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modifier une reservation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const hopitalList=pm.response.json();\r",
+							"const MafonctionTestStatusCode = () =>{\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"}\r",
+							"pm.test(\"doit avoir le status 200\",MafonctionTestStatusCode);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 24,\r\n        \"date\": \"2019-02-19T00:00:00.000+00:00\",\r\n        \"emetteurName\": \"Usman KAMARU\",\r\n        \"hopitalDestination\": \"La clinique St Jean\",\r\n        \"nbrLitReservation\": 3,\r\n        \"details\": \"Accident Moto, blessé\",\r\n        \"status\": \"Urgent\",\r\n        \"hopitalId\": 104\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrlApi}}/reservations/update/24",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"reservations",
+						"update",
+						"24"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Accident List",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const accidentList=pm.response.json();\r",
+							"const MafonctionTestStatusCode = () =>{\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"}\r",
+							"pm.test(\"doit avoir le status 200\",MafonctionTestStatusCode);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrlApi}}/accidents",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"accidents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "accident by Id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const accident=pm.response.json();\r",
+							"const MafonctionTestStatusCode = () =>{\r",
+							"    pm.response.to.have.status(200);}\r",
+							"pm.test(\"doit avoir le status 200\",MafonctionTestStatusCode);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrlApi}}/accidents/4",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"accidents",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Accident",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const accidentIdCreation = pm.response.json();\r",
+							"const MafonctionTestStatusCode = () =>{\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"}\r",
+							"pm.test(\"doit avoir le status 200\",MafonctionTestStatusCode);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{     \r\n    \"lieux\": \"Melun (Proche de la Gare)\",\r\n    \"nbrPersonne\": 1,\r\n    \"gravite\": \"Urgent\",\r\n    \"besoinsHopistalier\": \"Debut d'AVC, personne agé\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrlApi}}/accidents/new",
+					"host": [
+						"{{BaseUrlApi}}"
+					],
+					"path": [
+						"accidents",
+						"new"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "maVariableSpecialisation",
+			"value": ""
+		},
+		{
+			"key": "maVariableLocalite",
+			"value": ""
+		}
+	]
+}
